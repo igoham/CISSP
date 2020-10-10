@@ -2,6 +2,11 @@
 |----|----|----|----|-----|  
 | Data Encryption Algorithm (Lucifer/DES)| Symetric | 64 bits, 56 make up key, 8 bit parity | 16 rounds of confusion and diffusion | Block cipher
 | Triple DES | Symetric | 112 bITS |  48 rounds | Block Cipher
+| AES | Symetric | 128, 192, 256 | 128 bits = 10 rounds, 192 bits = 12, 256 bits = 14 | Block Cipher
+| Internation Data Encrpytion Algorithm (IDEA) | | 64 bit blocks, then divided into 8 bit blocks |  8 rounds on each 8 bit block | Block Cipher
+| Blowfish | Symetric | 64 bit blocks | 32 - 448 bits | 16 runds | Block Cipher
+| RC2 | ? | Symetric |  
+| tt |
 
 
 
