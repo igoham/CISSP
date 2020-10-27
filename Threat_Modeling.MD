@@ -87,3 +87,35 @@ As a threat modeling method, Persona non Grata (PnG) focuses on the motivations 
 When used, PnG can help visualize threats from the counterpart side, which can be helpful in the early stages of the threat modeling [15]. The idea is to “introduce” a technical expert to a potential attacker of the system and their skills, motivations, and goals that help the expert to see the system’s vulnera-bilities and points of compromise from the other side [15]
 
 ![Attack Trees](https://i.gyazo.com/c792e8c97afa554223202d41b8cec60b.png)
+
+
+## Trike
+
+Trike was created as a security audit framework in 2005 that uses threat modeling as a technique [15]. 
+It looks at threat modeling from a risk management and defensive perspective [42].  
+
+Trike, as with many other methods, starts with defining a system. The analyst must build a require-ment model by enumerating and understanding the system’s actors, assets, intended actions, and rules.
+ 
+ As a result of this step, an actor-asset-action matrix can be created, where the columns represent as-sets, and the rows represent actors.  Each cell of the matrix should be divided into four parts, one for each action of CRUD (creating, read-ing, updating, and deleting). In these cells, the analyst should assign one of three values: allowed ac-tion, disallowed action, or action with rules. A rule tree should be attached to each cell [42, 43]. After defining requirements, a DFD is built. Each element is mapped to a selection of actors and as-sets.
+  
+  Iterating through the DFD, the analyst identifies threats, which fall into one of two categories: elevations of privilege or denials of service [42, 43]. Each discovered threat becomes a root node in an attack tree [42].To assess the risk of attacks that may impact assets through CRUD, Trike uses a five-point scale for each action, based on its probability. Actors are rated on five-point scales for the risks they are as-sumed to present (lower number = higher risk) to the asset. Also, actors are evaluated on a three-di-mensional scale (always, sometimes, never) for each action they may perform on each asset.The Trike scale system seems too vague to represent a formal method. Unfortunately, Trike version 2.0 is not well maintained, and there is no documentation, even though its site is up and running.
+  
+  
+  
+## VAST Modeling 
+ 
+ The Visual, Agile, and Simple Threat (VAST) Modeling method was created by Anurag Agarwal and is based on ThreatModeler, an automated threat modeling platform [15]. The fundamental value of the method is the scalability and usability that allow it to be adopted in large organizations throughout the entire infrastructure to produce actionable and reliable results for different stakeholders [22]. 
+ 
+ Recognizing differences in operations and concerns among development and infrastructure teams, VAST requires creating two types of models: application threat models and operational threat models. Application threat models use process flow diagrams, representing the architectural point of view. Op-erational threat models are created with an attacker point of view in mind based on DFDs [15, 22]. This approach allows for the integration of VAST into the organization’s development and DevOps lifecycles [22]
+ 
+ 
+## OCTAVE
+ 
+The Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE) method is a risk-based strategic assessment and planning method for cybersecurity [36]. It was created by the CERT Division of the Software Engineering Institute in 2003 and refined in 2005. OCTAVE focuses on as-sessing organizational risks and does not address technological risks. Its main aspects are operational risk, security practices, and technology [22, 43].
+
+OCTAVE has three phases, which can be seen in Figure 11 [36]:
+![Attack Trees](https://gyazo.com/7a13db4b225a990655695fec6f0fdbb9.png)
+
+1. Build asset-based threat profiles. (This is an organizational evaluation.) 
+2. Identify infrastructure vulnerability. (This is an evaluation of the information infrastructure.)
+3. Develop a security strategy and plans. ( This is an identification of risks to the organization’s criti-cal assets and decision making.) 

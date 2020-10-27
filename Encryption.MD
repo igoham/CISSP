@@ -55,7 +55,6 @@ understand the different modes and which one to use for which purpose.*
     - iters the IV by 1 rather than using any sort of prevous output
     - Can be run in parallel 
 
-C:\Users\Carrington\OneDrive\Development_Bucket\CISSP
 ### Hash Lengths
 |Name|Digest Length| Block Size|
 |---|----|----|
