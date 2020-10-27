@@ -33,7 +33,7 @@ Threat modeling can be particularly helpful in the area of cyber-physical system
 Microsoft developed another Threat Model. It assigns one of three values (0, 5, 10) to the first four categories and one of four values (0, 5, 9, 10) to the last category, which “allows for an average value to be calculated to represent the risk of the entire sys-tem”
 
 ## PASTA 
-he Process for Attack Simulation and Threat Analysis (P.A.S.T.A) is a risk-centric threat modeling framework developed in 2012 by Tony UcedaVélez. It contains seven stages, each with multiple ac-tivities
+The Process for Attack Simulation and Threat Analysis (P.A.S.T.A) is a risk-centric threat modeling framework developed in 2012 by Tony UcedaVélez. It contains seven stages, each with multiple ac-tivities
 
 ![PASTA](https://i.gyazo.com/116f7317d238bf3d9962c9e44e924ca6.png)
 
