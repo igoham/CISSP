@@ -176,6 +176,8 @@ What is the average tempature and humidity for a server toom
 - Blowfish
 - Twofish
 - Skipjack
+
+
 **Defined the following system security modes**
 - Dedicated Security mode
 
