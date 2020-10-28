@@ -178,8 +178,8 @@ What is the average tempature and humidity for a server toom
 - Skipjack
 
 
-**Defined the following system security modes**
-- Dedicated Security mode
+**Define the following system security modes**
+##### Dedicated Security mode
 
 In this mode of operation, all users must have:
 
@@ -190,7 +190,7 @@ In this mode of operation, all users must have:
 
 All users can access ALL data. 
 
-- System high security mode
+#####  System high security mode
 
 In system high mode of operation, all users must have:
 
@@ -201,7 +201,7 @@ In system high mode of operation, all users must have:
 
 All users can access SOME data, based on their need to know. 
 
-- Compartmented security mode
+##### Compartmented security mode
 
 In this mode of operation, all users must have:
 
@@ -211,7 +211,7 @@ In this mode of operation, all users must have:
     A valid need to know for SOME information on the system.
 
 All users can access SOME data, based on their need to know and formal access approval. 
-- Multilevel secuirt mode
+##### Multilevel secuirt mode
 
 In multilevel security mode of operation (also called Controlled Security Mode), all users must have:
 
