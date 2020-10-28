@@ -141,7 +141,18 @@ Cryptographic algorithms defined for use with IPsec include:
 - A type 2 error is a false negative
 
 
-What are the differentces bettwen CSMA/CA and CSMA/CD
+**What are the differentces bettwen CSMA/CA and CSMA/CD**
+
+*CSMA/CA*
+
+CSMA/CA stands for Carrier Sense Multiple Access/ Collision Avoidance. It is a network protocol for transmission. It operates in the Medium Access Control Layer. This protocol is effective before the collision.
+
+*CSMA/CD*
+
+CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is also a network protocol for transmission and operates in the Medium Access Control Layer. In this protocol, each station senses the collision by broadcast sensing. In case of collision, the transmission is stopped and they send a jam signal and then wait for a random time context before retransmission.
+![MULTI TASKING](https://gyazo.com/8f5b4455c396c553b89475a5465ec1b5.png)
+
+
 What are no the differences between Multilevel, compartmented, systemhigh and dedicated
 REVIEW THE TCP/IP DARPA MODEL!!!!!
 How does change management and Configuration management interface
@@ -155,6 +166,72 @@ Treatdrop vs Fraggle attack
 What is the CRC used for in ethernet
 What are the ESP and AH modes and how are they commonly used together - ESP tunnel vs Transfer modes
 What is the average tempature and humidity for a server toom
-- 40 - 60 % humitidy 
+
+**Which algorithms are strongest bit for bit**
+**What is a meet in the middle attack**
+**Certification vs Accredidation**
+**Review lesser encryption algorithms**
+- El Gamal
+- Knapscak
+- Blowfish
+- Twofish
+- Skipjack
+**Defined the following system security modes**
+- Dedicated Security mode
+
+In this mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for ALL information on the system.
+    A valid need to know for ALL information on the system.
+
+All users can access ALL data. 
+
+- System high security mode
+
+In system high mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for ALL information on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know. 
+
+- Compartmented security mode
+
+In this mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for SOME information they will access on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know and formal access approval. 
+- Multilevel secuirt mode
+
+In multilevel security mode of operation (also called Controlled Security Mode), all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for SOME information on the system.
+    Formal access approval for SOME information on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know, clearance and formal access approval 
+****
+**Research x.509 certificiates**
+- Do they use DSS for authentication?
+
+
+**Define the following Access Control Models**
+- Bell-Lapadula Model
+- Biba Model
+- Clark Wilson Model
+- Noneinterference Model
+- Brewer nash model
+- Graham-Denning Model
+- Harrison Ruzzo Ulman Model
+
 What is a constrained process
 **What is the refernce monitor in the TCB**
