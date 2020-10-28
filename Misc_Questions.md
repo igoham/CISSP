@@ -154,11 +154,37 @@ CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is als
 
 
 What are no the differences between Multilevel, compartmented, systemhigh and dedicated
-REVIEW THE TCP/IP DARPA MODEL!!!!!
-How does change management and Configuration management interface
-Which Symetric and Asymetric algrithms are the strongest
+**OSI to TCP/IP Darpa Model**
+![OSI to TCP IP models](https://gyazo.com/ab0362ff7c33f7648122d4bc0fdd0f94.png)
+
+**How does change management and Configuration management interface**
+
+##### The change management plan oversees  how any change to the “process” should be done.
+
+##### The configuration management oversees how any change to the “product” should be done.
+
+The Key Elements of Configuration Management are:
+
+- Version Control
+    - The ablity to check the work into a common repository, retrieve it anytime to see any changes done by anyone, and maintain full version history.
+- Baseline and release information
+    - When was the last version released, what did it contain, and having a baseline version to deploy at any time.
+- Audits & Review
+    - Audit of the process to ensure that people are actually following the configuration management and versioning system properly, correctly, consistently.
+- Documented Process
+    - An agreed upon process by all team members to ensure compliance in actual implementation. No point having a great system that no one uses or uses it at random.
+- Build, Integrate and Deploy Scripts:
+    - Common, standard scripts that automate the work of building, testing, integrating, deploying, and removing manual errors from the process. Standardization of the processes and its implementation is the key here.
+
+Which Symetric and Asymetric algorithms are the strongest
 What is a Micro kernel and how is it used in a TCB
-What is a DataGram
+**What is a DataGram**
+
+A datagram is a basic transfer unit associated with a packet-switched network
+
+Each datagram has two components, a header and a data payload. The header contains all the information sufficient for routing from the originating equipment to the destination without relying on prior exchanges between the equipment and the network. Headers may include source and destination addresses as well as a type field. The payload is the data to be transported. This process of nesting data payloads in a tagged header is called encapsulation.
+![OSI to TCP IP models](https://gyazo.com/9823118ba732fe0c677cbc3ac948159f.png)
+
 What are the different wireless modes a client can use to connect to enterprise wifi network
 Are there any other populat x.XXx eg x.509 standards that are popular
 What is x.400
@@ -166,10 +192,47 @@ Treatdrop vs Fraggle attack
 What is the CRC used for in ethernet
 What are the ESP and AH modes and how are they commonly used together - ESP tunnel vs Transfer modes
 What is the average tempature and humidity for a server toom
+What are the relevant US and EU laws around privacy
+
+**Define the following terms**
+- Trademark
+- Copyright
+- IP
+- Patent
 
 **Which algorithms are strongest bit for bit**
 **What is a meet in the middle attack**
+
+The meet-in-the-middle attack (MITM), a known plaintext attack[1], is a generic space–time tradeoff cryptographic attack against encryption schemes that rely on performing multiple encryption operations in sequence. The MITM attack is the primary reason why Double DES is not used and why a Triple DES key (168-bit) can be bruteforced by an attacker with 256 space and 2112 operations.
+
+Diffie and Hellman first proposed the meet-in-the-middle attack on a hypothetical expansion of a block cipher in 1977.[4] Their attack used a space–time tradeoff to break the double-encryption scheme in only twice the time needed to break the single-encryption scheme. 
+
+he MITM is a generic attack which weakens the security benefits of using multiple encryptions by storing intermediate values from the encryptions or decryptions and using those to improve the time required to brute force the decryption keys. This makes a Meet-in-the-Middle attack (MITM) a generic space–time tradeoff cryptographic attack.
+
+The MITM attack attempts to find the keys by using both the range (ciphertext) and domain (plaintext) of the composition of several functions (or block ciphers) such that the forward mapping through the first functions is the same as the backward mapping (inverse image) through the last functions, quite literally meeting in the middle of the composed function. For example, although Double DES encrypts the data with two different 56-bit keys, Double DES can be broken with 257 encryption and decryption operations. 
+
+
 **Certification vs Accredidation**
+
+
+
+Accreditation is the formal acceptance of the adequacy of a system’s overall security and
+functionality by management. The certification information is presented to management,
+or the responsible body, and it is up to management to ask questions, review the reports
+and findings, and decide whether to accept the product and whether any corrective action
+needs to take place
+
+**NOTE**
+*Certification is a technical review that assesses the security mechanisms and
+evaluates their effectiveness. Accreditation is management’s official acceptance of the
+information in the certification process findings.*
+
+
+Certification is the comprehensive technical evaluation of the security components and their
+compliance for the purpose of accreditation. A certification process may use safeguard
+evaluation, risk analysis, verification, testing, and auditing techniques to assess the
+appropriateness of a specific system
+
 **Review lesser encryption algorithms**
 - El Gamal
 - Knapscak
@@ -235,5 +298,13 @@ All users can access SOME data, based on their need to know, clearance and forma
 - Graham-Denning Model
 - Harrison Ruzzo Ulman Model
 
-What is a constrained process
+**What is a constrained process**
+
 **What is the refernce monitor in the TCB**
+
+**Define the following Definitions**
+- Security Policy
+- Standards
+- Baselines
+- Guidelines
+- Procedures

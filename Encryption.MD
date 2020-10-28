@@ -66,6 +66,7 @@ SHA512| 512 Bits | 512 Bits
 # Asymmetric Encryption
 
 - Diffie Hellman
+    - https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2
     - Used for key Agreement
     - Can be used by two parties that have never interacted with each other previously 
 
