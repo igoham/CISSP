@@ -140,8 +140,7 @@ Cryptographic algorithms defined for use with IPsec include:
 - A type 1 error is a false positice
 - A type 2 error is a false negative
 
-Look up the different terms for spikes and dips in energy
-Can RSA be used for secure key exchange
+
 What are the differentces bettwen CSMA/CA and CSMA/CD
 What are no the differences between Multilevel, compartmented, systemhigh and dedicated
 REVIEW THE TCP/IP DARPA MODEL!!!!!
