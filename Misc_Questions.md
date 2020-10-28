@@ -1,3 +1,15 @@
+**Authentication**
+Authentication:
+
+    “Prove you are Thor”. – Should always be done with Multifactor Authentication!
+    Something you know – Type 1 Authentication (passwords, pass phrase, PIN etc.).
+    Something you have – Type 2 Authentication (ID, Passport, Smart Card, Token, cookie on PC etc.).
+    Something you are – Type 3 Authentication (and Biometrics) (Fingerprint, Iris Scan, Facial geometry etc.).
+    Somewhere you are – Type 4 Authentication (IP/MAC Address).
+    Something you do – Type 5 Authentication (Signature, Pattern unlock).
+
+
+
 **What humiditity and tempatures are acceptable for a data center**
 
 Server rooms  should be 68 (20*C) - 71(21.6*C) degrees Fahrenheit. The data center should be between 40% and 60% humidity.
@@ -88,10 +100,50 @@ Pharming is a cyberattack intended to redirect a website's traffic to another, f
 
 **How can you configure a remote access server to preform a callback?**
 
+**How does IPSec work**
+##### ESP
+- Transport mode -In transport mode, only the payload of the IP packet is usually encrypted or authenticated. The routing is intact, since the IP header is neither modified nor encrypted; however, when the authentication header is used, the IP addresses cannot be modified by network address translation, as this always invalidates the hash value. The transport and application layers are always secured by a hash, so they cannot be modified in any way, for example by translating the port numbers.
 
-What are type 1 2 and 3 for authentication methods?
-What are type 1 and 2 for biomeethics errors?
-Look over crytoanalysis attacks
+A means to encapsulate IPsec messages for NAT traversal has been defined by RFC documents describing the NAT-T mechanism.
+Tunnel mode
+Main article: Tunneling protocol
+
+- In tunnel mode, the entire IP packet is encrypted and authenticated. It is then encapsulated into a new IP packet with a new IP header. Tunnel mode is used to create virtual private networks for network-to-network communications (e.g. between routers to link sites), host-to-network communications (e.g. remote user access) and host-to-host communications (e.g. private chat).[33]
+Tunnel mode supports NAT traversal. 
+##### AH
+
+##### Security association
+
+The IPsec protocols use a security association, where the communicating parties establish shared security attributes such as algorithms and keys. As such IPsec provides a range of options once it has been determined whether AH or ESP is used. Before exchanging data the two hosts agree on which algorithm is used to encrypt the IP packet, for example DES or IDEA, and which hash function is used to ensure the integrity of the data, such as MD5 or SHA. These parameters are agreed for the particular session, for which a lifetime must be agreed and a session key.[28]
+
+The algorithm for authentication is also agreed before the data transfer takes place and IPsec supports a range of methods. Authentication is possible through pre-shared key, where a symmetric key is already in the possession of both hosts, and the hosts send each other hashes of the shared key to prove that they are in possession of the same key. IPsec also supports public key encryption, where each host has a public and a private key, they exchange their public keys and each host sends the other a nonce encrypted with the other host's public key. Alternatively if both hosts hold a public key certificate from a certificate authority, this can be used for IPsec authentication.[29]
+
+The security associations of IPsec are established using the Internet Security Association and Key Management Protocol (ISAKMP). ISAKMP is implemented by manual configuration with pre-shared secrets, Internet Key Exchange (IKE and IKEv2), Kerberized Internet Negotiation of Keys (KINK), and the use of IPSECKEY DNS records.[19][30][31] RFC 5386 defines Better-Than-Nothing Security (BTNS) as an unauthenticated mode of IPsec using an extended IKE protocol. C. Meadows, C. Cremers, and others have used Formal Methods to identify various anomalies which exist in IKEv1 and also in IKEv2.[32]
+
+In order to decide what protection is to be provided for an outgoing packet, IPsec uses the Security Parameter Index (SPI), an index to the security association database (SADB), along with the destination address in a packet header, which together uniquely identifies a security association for that packet. A similar procedure is performed for an incoming packet, where IPsec gathers decryption and verification keys from the security association database.
+
+For IP multicast a security association is provided for the group, and is duplicated across all authorized receivers of the group. There may be more than one security association for a group, using different SPIs, thereby allowing multiple levels and sets of security within a group. Indeed, each sender can have multiple security associations, allowing authentication, since a receiver can only know that someone knowing the keys sent the data. Note that the relevant standard does not describe how the association is chosen and duplicated across the group; it is assumed that a responsible party will have made the choice. 
+
+##### Cryptographic algorithms
+
+Cryptographic algorithms defined for use with IPsec include:
+
+    HMAC-SHA1/SHA2 for integrity protection and authenticity.
+    TripleDES-CBC for confidentiality
+    AES-CBC for confidentiality.
+    AES-GCM providing confidentiality and authentication together efficiently.
+    ChaCha20 + Poly1305 providing confidentiality and authentication together efficiently.
+
+**What are type 1 and 2 for biomeethics errors?**
+A type 1 error is a false positice
+A type 2 error is a false negative
+
+
+**Review common crytoanalysis attacks**
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/a8e7efb09bb0a65c63675412bf0b307a.png)
+
 Look up the different terms for spikes and dips in energy
 Can RSA be used for secure key exchange
 What are the differentces bettwen CSMA/CA and CSMA/CD
