@@ -73,7 +73,17 @@ DEP prevents code from being run from data pages such as the default heap, stack
 *Function pointer encoding* - Function pointers (e.g. CommitRoutine) in heap data structures are encoded with a random value to prevent them from being replaced with an untrusted value. 
 
 **Memorize SDLC process**
-# TODO
+- Requirements gathering Determine why to create this software, what the software
+will do, and for whom the software will be created
+- Design Deals with how the software will accomplish the goals identified, which are
+encapsulated into a functional design
+- Development Programming software code to meet specifications laid out in the
+design phase and integrating that code with existing systems and/or libraries
+- Testing Verifying and validating software to ensure that the software works as
+planned and that goals are met
+- Operations and maintenance Deploying the software and then ensuring that it is
+properly configured, patched, and monitored
+
 
 
 **Review all SCAP components**
