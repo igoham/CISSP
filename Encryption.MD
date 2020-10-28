@@ -63,19 +63,6 @@ SHA256| 256 Bits | 512 Bits
 SHA384| 384 Bits | 512 Bits
 SHA512| 512 Bits | 512 Bits
 
-
-
-**Can RSA be used for secure key exchange**
-
-
-
-**Review common crytoanalysis attacks**
-![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
-![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
-![MULTI TASKING](https://gyazo.com/a8e7efb09bb0a65c63675412bf0b307a.png)
-
-
-
 # Asymmetric Encryption
 
 - Diffie Hellman
@@ -136,3 +123,47 @@ message, though.
     - Joins the message with a symetric key pror to hashing the message. This creates a MAC that can be send wlong with the encrypted message
     - Send the MAC along with the message to prove message integrity 
     
+    
+    
+
+**The Diffie-Hellman key exchange & RSA**
+the Diffie-Hellman key exchange is often implemented alongside RSA or other algorithms to provide authentication for the connection. If you are familiar with RSA, you may be wondering why anyone would bother using the Diffie-Hellman key exchange as well, since RSA enables parties who have never previously met to communicate securely
+
+Instead, RSA is often only used as a means to authenticate both parties. It does this with the digital certificates of each party, which will have been verified by a certificate authority to prove that a certificate owner is truly who they say they are, and that the public key on the certificate actually belongs to them.
+
+For mutual authentication, each party will sign a message using their private key and then send it to their communication partner. Each recipient can then verify the identity of the other party by checking the signed messages against the public key on their communication partner’s digital certificate (see the above-mentioned article on RSA for more detail on how this works, particularly the Signing messages section).
+
+Now that both parties have been authenticated, it’s technically possible to continue using RSA to safely send encrypted messages between themselves, however it would end up being too inefficient.
+
+To get around this inefficiency, many security protocols use an algorithm such as the Diffie-Hellman key exchange to come up with a common secret that can be used to establish a shared symmetric-key. This symmetric key is then used in a symmetric-key algorithm, such as AES, to encrypt the data that the two parties intend to send securely between themselves.
+
+It may seem like a complex and convoluted process, but it ends up being much quicker and less-demanding on resources when compared to using a public-key algorithm for the whole exchange. This is because symmetric-key encryption is orders of magnitude more efficient than public-key encryption.
+
+In addition to the inefficiencies that we just mentioned, there are some other downsides that would come from solely using RSA. RSA needs padding to make it secure, so an additional algorithm would need to be implemented appropriately alongside it to make it safe.
+
+RSA doesn’t provide perfect forward secrecy, either, which is another disadvantage when compared to the ephemeral Diffie-Hellman key exchange. Collectively, these reasons are why, in many situations, it’s best to only apply RSA in conjunction with the Diffie-Hellman key exchange.
+
+Alternatively, the Diffie-Hellman key exchange can be combined with an algorithm like the Digital Signature Standard (DSS) to provide authentication, key exchange, confidentiality and check the integrity of the data. In such a situation, RSA is not necessary for securing the connection.
+
+
+**ElGamal**
+
+ElGamal is a public-key algorithm built on top of the Diffie-Hellman key exchange. Like Diffie-Hellman, it contains no provisions for authentication on its own, and is generally combined with other mechanisms for this purpose.
+
+ElGamal was mainly used in PGP, GNU Privacy Guard and other systems because its main rival, RSA, was patented. RSA’s patent expired in 2000, which allowed it to be implemented freely after that date. Since then, ElGamal has not been implemented as frequently.
+
+
+**Review common crytoanalysis attacks**
+
+
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/a8e7efb09bb0a65c63675412bf0b307a.png)
+
+**ECC and ECDSA**
+
+Elliptic Curve Cryptography (ECC) or Elliptic Curve Digital Signature Algorithm (ECDSA) was known and studied in the world of mathematics for 150 years before being applied to cryptography; Neal Koblitz and Victor S. Miller originally suggested it in 1985. However, in 2005, the NSA released a new set of U.S. government-endorsed security algorithms that also included ECC, in a release entitled “Suite B”.
+
+Elliptic curve cryptography is a new cryptographic algorithm that has been developed for increased security and more robust network performance. Some researchers have claimed that ECC cryptography can provide as much strong security with a 164-bit key as other systems achieve with a 1024-bit key. With the advent of mobile devices being used for highly private transactions, more secure, low-overhead encryption schemes are becoming highly desirable. ECC cryptography helps to establish a level security equal to or greater than RSA or DSA, the two most widely-adopted encryption methods – and it does it with less computational overhead, requiring less processing power, and moving well beyond the mobile sphere in implementation.
+
+ECDSA (Elliptic Curve Digital Signature Algorithm) is based on DSA, but uses yet another mathematical approach to key generation. ECC is a mathematical equation taken on its own, but ECDSA is the algorithm that is applied to ECC to make it appropriate for security encryption. Like RSA and DSA, it is another asymmetric cryptographic scheme, but in ECC, the equation defines the public/private key pair by operations on points of elliptic curves, instead of describing it as the product of very large prime numbers.
