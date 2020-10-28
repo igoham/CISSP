@@ -1,4 +1,5 @@
 **Authentication**
+
 Authentication:
 
     “Prove you are Thor”. – Should always be done with Multifactor Authentication!
@@ -17,7 +18,7 @@ Server rooms  should be 68 (20*C) - 71(21.6*C) degrees Fahrenheit. The data cent
 **What layer does DNS and DHCP operate at?**
 
 - DNS is an Application layer protocol
-- DHCP work on the Data-link layer. This means that when a device needs an IP address they can only request one on the same network that its present on
+- DHCP works on the Data-link layer. This means that when a device needs an IP address they can only request one on the same network that its present on
 
 **What is a birthday attack?**
 
@@ -135,14 +136,9 @@ Cryptographic algorithms defined for use with IPsec include:
     ChaCha20 + Poly1305 providing confidentiality and authentication together efficiently.
 
 **What are type 1 and 2 for biomeethics errors?**
-A type 1 error is a false positice
-A type 2 error is a false negative
 
-
-**Review common crytoanalysis attacks**
-![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
-![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
-![MULTI TASKING](https://gyazo.com/a8e7efb09bb0a65c63675412bf0b307a.png)
+- A type 1 error is a false positice
+- A type 2 error is a false negative
 
 Look up the different terms for spikes and dips in energy
 Can RSA be used for secure key exchange

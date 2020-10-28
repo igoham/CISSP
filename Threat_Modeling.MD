@@ -16,12 +16,113 @@ Threat modeling can be particularly helpful in the area of cyber-physical system
 
 
 ## STRIDE 
-    - SPOOFING
-    - Tampering 
-    - REPUDIATION
-    - Information Disclosure
-    - Denial of service
-    = Elevation pf privilege
+STRIDE is an acronym that stands for 6 categories of security risks: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privileges.
+
+Each category of risk aims to address one aspect of security.
+
+Let's dive into each of these categories.
+
+##### Spoofing
+
+Spoofing refers to the act of posing as someone else (i.e. spoofing a user) or claiming a false identity (i.e. spoofing a process).
+
+This category is concerned with authenticity.
+
+Examples:
+
+    One user spoofs the identify of another user by brute-forcing username/password credentials.
+    A malicious, phishing host is set up in an attempt to trick users into divulging their credentials.
+
+You would typically mitigate these risks with proper authentication.
+
+
+##### Tampering
+
+Tampering refers to malicious modification of data or processes. Tampering may occur on data in transit, on data at rest, or on processes.
+
+This category is concerned with integrity.
+
+Examples:
+
+    A user performs bit-flipping attacks on data in transit.
+    A user modifies data at rest/on disk.
+    A user performs injection attacks on the application.
+
+You would typically mitigate these risks with:
+
+    Proper validation of users' inputs and proper encoding of outputs.
+    Use prepared SQL statements or stored procedures to mitigate SQL injections.
+    Integrate with security static code analysis tools to identify security bugs.
+    Integrate with composition analysis tools (e.g. snyk, npm audit, BlackDuck ...etc) to identify 3rd party libraries/dependencies with known security vulnerabilities.
+
+##### Repudiation
+
+Repudiation refers to the ability of denying that an action or an event has occurred.
+
+This category is concerned with non-repudiation.
+
+Examples:
+
+    A user denies performing a destructive action (e.g. deleting all records from a database).
+    Attackers commonly erase or truncate log files as a technique for hiding their tracks.
+    Administrators unable to determine if a container has started to behave suspiciously/erratically.
+
+You would typically mitigate these risks with proper audit logging.
+
+
+##### Information Disclosure
+
+Information Disclosure refers to data leaks or data breaches. This could occur on data in transit, data at rest, or even to a process.
+
+This category is concerned with confidentiality.
+
+Examples:
+
+    A user is able to eavesdrop, sniff, or read traffic in clear-text.
+    A user is able to read data on disk in clear-text.
+    A user attacks an application protected by TLS but is able to steal x.509 (SSL/TLS certificate) decryption keys and other sensitive information. Yes, this happened.
+    A user is able to read sensitive data in a database.
+
+You would typically mitigate these risks by:
+
+    Implementing proper encryption.
+    Avoiding self-signed certificates. Use a valid, trusted Certificate Authority (CA).
+
+##### Denial of Service
+
+Denial of Service refers to causing a service or a network resource to be unavailable to its intended users.
+
+This category is concerned with availability.
+
+Examples:
+
+    A user performs SYN flood attack.
+    The storage (i.e. disk, drive) becomes too full.
+    A Kubernetes dashboard is left exposed on the Internet, allowing anyone to deploy containers on your company's infrastructure to mine cryptocurrency and starve your legitimate applications of CPU. Yes, that happened too.
+
+Mitigating this class of security risks is tricky because solutions are highly dependent on a lot of factors.
+
+For the Kubernetes example, you would mitigate resource consumption with resource quotas.
+
+For a storage example, you would mitigate this with proper log rotation and monitoring/alerting when disk is nearing capacity.
+##### Elevation of Privileges
+
+Elevation of Privileges refers to gaining access that one should not have.
+
+This category is concerned with authorization.
+
+Example:
+
+    A user takes advantage of a Buffer Overflow to gain root-level privileges on a system.
+    A user with limited to no permissions to Kubernetes can elevate their privileges by sending a specially crafted request to a container with the Kubernetes API server's TLS credentials. Yes, this was possible.
+
+Mitigating these risks would require a few things:
+
+    Proper authorization mechanism (e.g. role-based access control).
+    Security static code analysis to ensure your code has little to no security bugs.
+    Compositional analysis (aka dependency checking/scanning), like snyk or npm audit, to ensure that you're not relying on known-vulnerable 3rd party dependencies.
+    Generally practicing least privilege principle, like running your web server as a non-root user.
+
     
 ## DREAD 
     - Damage potential

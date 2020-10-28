@@ -64,6 +64,18 @@ SHA384| 384 Bits | 512 Bits
 SHA512| 512 Bits | 512 Bits
 
 
+
+
+
+
+
+**Review common crytoanalysis attacks**
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/f56b0e183b53db9d58d4988c00b7a9b4.png)
+![MULTI TASKING](https://gyazo.com/a8e7efb09bb0a65c63675412bf0b307a.png)
+
+
+
 # Asymmetric Encryption
 
 - Diffie Hellman
