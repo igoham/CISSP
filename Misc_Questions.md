@@ -308,3 +308,53 @@ All users can access SOME data, based on their need to know, clearance and forma
 - Baselines
 - Guidelines
 - Procedures
+
+**What are the core differences between BCP and DRP**
+
+**What are the stages or steps in a BCP**
+**What are the stages or steps in a DRP**
+**What are the ISC code of ethics IN ORDER**
+**Review public and military classification names**
+**Review Memory Types**
+**Review x.25 VS ATM vs SONNET vs FDDI**
+**Review wireless standards**
+
+For example a,b,c,g,n,ac
+
+**What are the different wireless modes for enterprise**
+**Review Cabling**
+**Review PBX's**
+**Review IDS / IDPS from domain 5**
+**Review remote access topics in book**
+**Review federation, SSO, 0auth, SAML, OIDC**
+**Review the following access control mechanisms**
+
+- Discretionary Access Control
+- Mandatory Access Control
+- Role-Based Access Control
+- Rule-Based Access Control
+- Attribute-Based Access Control
+- Constrained User Interfaces
+- Remote Access Control Technologies
+- Access Control Matrix
+- Content-Dependent Access Control
+- Context-Dependent Access Control
+
+
+
+**Review The Identify and access provisioning live cycle**
+
+**Review the following software Development methodologies**
+- Waterfall Methodology
+- V-Shaped Methodology
+- Prototyping
+- Incremental Methodology
+- Spiral Methodology
+- Rapid Application Development
+- Agile Methodologies
+- Integrated Product Team
+- DevOps
+
+**review rootkits**
+
+****
