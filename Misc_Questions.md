@@ -387,6 +387,11 @@ For example a,b,c,g,n,ac
 
 **Review alarm sensor types for physical security**
 
+**Why destroy SSDs to prevent data leaks?**
+
+**What are the different actions you can take with risk  minamize it?**
+**What is the EU - US Pricavy shield?**
+**Research Identity Proofing **
 ****
 
 

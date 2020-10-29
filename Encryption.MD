@@ -1,3 +1,6 @@
+**Encrpytion Keys**
+- The number of keys can be determined by doing 2^N where N = key length in bits
+
 # Symmetric Encryption
 
 As described earlier in the chapter, using purely symmetric key cryptography has three
