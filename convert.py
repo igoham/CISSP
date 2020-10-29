@@ -1,231 +1,174 @@
 test = """
-Quick Tips
-• System architecture is a formal tool used to design computer systems in a manner
-that ensures each of the stakeholders’ concerns is addressed.
-• A system’s architecture is made up of different views, which are representations of
-system components and their relationships. Each view addresses a different aspect of
-the system (functionality, performance, interoperability, security).
-• ISO/IEC/IEEE 42010 is an international standard that outlines how system
-architecture frameworks and their description languages are to be used.
-• A CPU contains a control unit, which controls the timing of the execution of
-instructions and data, and an ALU, which performs mathematical functions and
-logical operations.
-• Memory managers use various memory protection mechanisms, as in base
-(beginning) and limit (ending) addressing, address space layout randomization, and
-data execution prevention.
-• Operating systems use absolute (hardware addresses), logical (indexed addresses), and
-relative address (indexed addresses, including offsets) memory schemes.
-• Buffer overflow vulnerabilities are best addressed by implementing bounds checking.
-• A garbage collector is a software tool that releases unused memory segments to help
-prevent “memory starvation.”
-• Different processor families work within different microarchitectures to execute
-specific instruction sets.
-• Early operating systems were considered “monolithic” because all of the code worked
-within one layer and ran in kernel mode, and components communicated in an ad
-hoc manner.
-• Operating systems can work within the following architectures: monolithic kernel,
-layered, microkernel, or hybrid kernel.
-• Mode transition is when a CPU has to switch from executing one process’s
-instructions running in user mode to another process’s instructions running in kernel
-mode.
-• CPUs provide a ringed architecture, which operating systems run within. The more
-565
-trusted processes run in the lower-numbered rings and have access to all or most of
-the system resources. Nontrusted processes run in higher-numbered rings and have
-access to a smaller amount of resources.
-• Operating system processes are executed in privileged mode (also called kernel or
-supervisor mode), and applications are executed in user mode, also known as
-“problem state.”
-• Virtual memory combines RAM and secondary storage so the system seems to have a
-larger bank of memory.
-• The more complex a security mechanism is, the less amount of assurance it can
-usually provide.
-• The trusted computing base (TCB) is a collection of system components that
-enforces the security policy directly and protects the system. These components are
-within the security perimeter.
-• Components that make up the TCB are hardware, software, and firmware that
-provide some type of security protection.
-• A security perimeter is an imaginary boundary that has trusted components within it
-(those that make up the TCB) and untrusted components outside it.
-• The reference monitor concept is an abstract machine that ensures all subjects have
-the necessary access rights before accessing objects. Therefore, it mediates all access to
-objects by subjects.
-• The security kernel is the mechanism that actually enforces the rules of the reference
-monitor concept.
-• The security kernel must isolate processes carrying out the reference monitor concept,
-must be tamperproof, must be invoked for each access attempt, and must be small
-enough to be properly tested.
-• Processes need to be isolated, which can be done through segmented memory
-addressing, encapsulation of objects, time multiplexing of shared resources, naming
-distinctions, and virtual mapping.
-• The level of security a system provides depends upon how well it enforces its security
-policy.
-• A closed system is often proprietary to the manufacturer or vendor, whereas an open
-system allows for more interoperability.
-• The Common Criteria was developed to provide globally recognized evaluation
-criteria.
-• The Common Criteria uses protection profiles, security targets, and ratings (EAL1 to
-EAL7) to provide assurance ratings for targets of evaluation (TOEs).
-• Certification is the technical evaluation of a system or product and its security
-components. Accreditation is management’s formal approval and acceptance of the
-security provided by a system.
-• ISO/IEC 15408 is the international standard that is used as the basis for the
-evaluation of security properties of products under the CC framework.
-566
-• Process isolation ensures that multiple processes can run concurrently and the
-processes will not interfere with each other or affect each other’s memory segments.
-• TOC/TOU stands for time-of-check/time-of-use. This is a class of asynchronous
-attacks.
-• A distributed system is a system in which multiple computing nodes, interconnected
-by a network, exchange information for the accomplishment of collective tasks.
-• Cloud computing is the use of shared, remote computing devices for the purpose of
-providing improved efficiencies, performance, reliability, scalability, and security.
-• Software as a Service (SaaS) is a cloud computing model that provides users access to
-a specific application that executes on the service provider’s environment.
-• Platform as a Service (PaaS) is a cloud computing model that provides users access to
-a computing platform that is typically built on a server operating system, but not the
-virtual machine on which it runs.
-• Infrastructure as a Service (IaaS) is a cloud computing model that provides users
-unfettered access to a cloud device, such as an instance of a server, which includes
-both the operating system and the virtual machine on which it runs.
-• Parallel computing is the simultaneous use of multiple computers to solve a specific
-task by dividing it among the available computers.
-• Any system in which computers and physical devices collaborate via the exchange of
-inputs and outputs to accomplish a task or objective is a cyber-physical system.
-• Cryptography is the science of protecting information by encoding it into an
-unreadable format.
-• The most famous rotor encryption machine is the Enigma used by the Germans in
-World War II.
-• A readable message is in a form called plaintext, and once it is encrypted, it is in a
-form called ciphertext.
-• Cryptographic algorithms are the mathematical rules that dictate the functions of
-enciphering and deciphering.
-• Cryptanalysis is the study of breaking cryptosystems.
-• Nonrepudiation is a service that ensures the sender cannot later falsely deny sending a
-message.
-• Key clustering is an instance in which two different keys generate the same ciphertext
-from the same plaintext.
-• The range of possible keys is referred to as the keyspace. A larger keyspace and the full
-use of the keyspace allow for more random keys to be created. This provides more
-protection.
-• The two basic types of encryption mechanisms used in symmetric ciphers are
-substitution and transposition. Substitution ciphers change a character (or bit) out for
-another, while transposition ciphers scramble the characters (or bits).
-• A polyalphabetic cipher uses more than one alphabet to defeat frequency analysis.
-567
-• Steganography is a method of hiding data within another media type, such as a
-graphic, WAV file, or document. This method is used to hide the existence of the
-data.
-• A key is a random string of bits inserted into an encryption algorithm. The result
-determines what encryption functions will be carried out on a message and in what
-order.
-• In symmetric key algorithms, the sender and receiver use the same key for encryption
-and decryption purposes.
-• In asymmetric key algorithms, the sender and receiver use different keys for
-encryption and decryption purposes.
-• Symmetric key processes provide barriers of secure key distribution and scalability.
-However, symmetric key algorithms perform much faster than asymmetric key
-algorithms.
-• Symmetric key algorithms can provide confidentiality, but not authentication or
-nonrepudiation.
-• Examples of symmetric key algorithms include DES, 3DES, Blowfish, IDEA, RC4,
-RC5, RC6, and AES.
-• Asymmetric algorithms are used to encrypt keys, and symmetric algorithms are used
-to encrypt bulk data.
-• Asymmetric key algorithms are much slower than symmetric key algorithms, but can
-provide authentication and nonrepudiation services.
-• Examples of asymmetric key algorithms include RSA, ECC, Diffie-Hellman, El
-Gamal, knapsack, and DSA.
-• Two main types of symmetric algorithms are stream ciphers and block ciphers.
-Stream ciphers use a keystream generator and encrypt a message one bit at a time. A
-block cipher divides the message into groups of bits and encrypts them.
-• Many algorithms are publicly known, so the secret part of the process is the key. The
-key provides the necessary randomization to encryption.
-• Data Encryption Standard (DES) is a block cipher that divides a message into 64-bit
-blocks and employs S-box-type functions on them.
-• Because technology has allowed the DES keyspace to be successfully broken, TripleDES (3DES) was developed to be used instead. 3DES uses 48 rounds of computation
-and up to three different keys.
-• International Data Encryption Algorithm (IDEA) is a symmetric block cipher with a
-key of 128 bits.
-• RSA is an asymmetric algorithm developed by Rivest, Shamir, and Adleman and is
-the de facto standard for digital signatures.
-• Elliptic curve cryptosystems (ECCs) are used as asymmetric algorithms and can
-provide digital signature, secure key distribution, and encryption functionality. They
-use fewer resources, which makes them better for wireless device and cell phone
-encryption use.
-568
-• When symmetric and asymmetric key algorithms are used together, this is called a
-hybrid system. The asymmetric algorithm encrypts the symmetric key, and the
-symmetric key encrypts the data.
-• A session key is a symmetric key used by the sender and receiver of messages for
-encryption and decryption purposes. The session key is only good while that
-communication session is active and then it is destroyed.
-• A public key infrastructure (PKI) is a framework of programs, procedures,
-communication protocols, and public key cryptography that enables a diverse group
-of individuals to communicate securely.
-• A certificate authority (CA) is a trusted third party that generates and maintains user
-certificates, which hold their public keys.
-• The CA uses a certification revocation list (CRL) to keep track of revoked certificates.
-• A certificate is the mechanism the CA uses to associate a public key to a person’s
-identity.
-• A registration authority (RA) validates the user’s identity and then sends the request
-for a certificate to the CA. The RA cannot generate certificates.
-• A one-way function is a mathematical function that is easier to compute in one
-direction than in the opposite direction.
-• RSA is based on a one-way function that factors large numbers into prime numbers.
-Only the private key knows how to use the trapdoor and how to decrypt messages
-that were encrypted with the corresponding public key.
-• Hashing algorithms provide data integrity only.
-• When a hash algorithm is applied to a message, it produces a message digest, and this
-value is signed with a private key to produce a digital signature.
-• Some examples of hashing algorithms include SHA-1, SHA-2, SHA-3, MD4, and
-MD5.
-• SHA produces a 160-bit hash value and is used in DSS.
-• A birthday attack is an attack on hashing functions through brute force. The attacker
-tries to create two messages with the same hashing value.
-• A one-time pad uses a pad with random values that are XORed against the message to
-produce ciphertext. The pad is at least as long as the message itself and is used once
-and then discarded.
-• A digital signature is the result of a user signing a hash value with a private key. It
-provides authentication, data integrity, and nonrepudiation. The act of signing is the
-actual encryption of the value with the private key.
-• Examples of algorithms used for digital signatures include RSA, El Gamal, ECDSA,
-and DSA.
-• Key management is one of the most challenging pieces of cryptography. It pertains to
-creating, maintaining, distributing, and destroying cryptographic keys.
-• Crime Prevention Through Environmental Design (CPTED) combines the physical
-569
-environment and sociology issues that surround it to reduce crime rates and the fear
-of crime.
-• The value of property within the facility and the value of the facility itself need to be
-ascertained to determine the proper budget for physical security so that security
-controls are cost effective.
-• Some physical security controls may conflict with the safety of people. These issues
-need to be addressed; human life is always more important than protecting a facility
-or the assets it contains.
-• When looking at locations for a facility, consider local crime; natural disaster
-possibilities; and distance to hospitals, police and fire stations, airports, and railroads.
-• Exterior fencing can be costly and unsightly, but can provide crowd control and help
-control access to the facility.
-• If interior partitions do not go all the way up to the true ceiling, an intruder can
-remove a ceiling tile and climb over the partition into a critical portion of the facility.
-• The primary power source is what is used in day-to-day operations, and the
-alternative power source is a backup in case the primary source fails.
-• Smoke detectors should be located on and above suspended ceilings, below raised
-floors, and in air ducts to provide maximum fire detection.
-• A fire needs high temperatures, oxygen, and fuel. To suppress it, one or more of those
-items needs to be reduced or eliminated.
-• Gases like FM-200 and other halon substitutes interfere with the chemical reaction of
-a fire.
-• Portable fire extinguishers should be located within 50 feet of electrical equipment
-and should be inspected quarterly.
-• CO2
-is a colorless, odorless, and potentially lethal substance because it removes the
-oxygen from the air in order to suppress fires.
-• CPTED provides three main strategies, which are natural access control, natural
-surveillance, and natural territorial reinforcement.
-• Window types that should be understood are standard, tempered, acrylic, wired, and
-laminated.
+• Security should be addressed in each phase of system development. It should not be
+addressed only at the end of development because of the added cost, time, and effort
+and the lack of functionality.
+• The attack surface is the collection of possible entry points for an attacker. The
+reduction of this surface reduces the possible ways that an attacker can exploit a
+system.
+• Threat modeling is a systematic approach used to understand how different threats
+could be realized and how a successful compromise could take place.
+• Computer-aided software engineering refers to any type of software that allows for
+the automated development of software, which can come in the form of program
+editors, debuggers, code analyzers, version-control mechanisms, and more. The goals
+are to increase development speed and productivity and reduce errors.
+• Various levels of testing should be carried out during development: unit (testing
+individual components), integration (verifying components work together in the
+production environment), acceptance (ensuring code meets customer requirements),
+regression (testing after changes take place), static analysis (reviewing programming
+code), and dynamic analysis (reviewing code during execution).
+• Fuzzing is the act of sending random data to the target program in order to trigger
+failures.
+• Zero-day vulnerabilities are vulnerabilities that do not currently have a resolution or
+solution.
+• The ISO/IEC 27034 standard covers the following items: application security
+overview and concepts, organization normative framework, application security
+management process, protocols and application security control data structure, case
+studies, and application security assurance prediction.
+• The Open Web Application Security Project (OWASP) is an organization dedicated
+to helping the industry develop more secure software.
+• An integrated product team (IPT) is a multidisciplinary development team with
+representatives from many or all the stakeholder populations.
+• The CMMI model uses five maturity levels designated by the numbers 1 through 5.
+Each level represents the maturity level of the process quality and optimization. The
+1423
+levels are organized as follows: 1 = Initial, 2 = Repeatable, 3 = Defined, 4 = Managed,
+5 = Optimizing.
+• CMMI (Capability Maturity Model Integration) is a process improvement approach
+that provides organizations with the essential elements of effective processes, which
+will improve their performance.
+• Change management is a systematic approach to deliberately regulating the changing
+nature of projects. Change control, which is a subpart of change management, deals
+with controlling specific changes to a system.
+• There are several SDLC methodologies: Waterfall (sequential approach that requires
+each phase to complete before the next one can begin), V-shaped (emphasizes
+verification and validation at each phase), Prototyping (creating a sample of the code
+for proof-of-concept purposes), Incremental (multiple development cycles are carried
+out on a piece of software throughout its development stages), Spiral (iterative
+approach that emphases risk analysis per iteration), Rapid Application Development
+(combines prototyping and iterative development procedures with the goal of
+accelerating the software development process), and Agile (iterative and incremental
+development processes that encourage team-based collaboration, where flexibility and
+adaptability are used instead of a strict process structure).
+• Software configuration management (SCM) is the task of tracking and controlling
+changes in the software through the use of authentication, revision control, the
+establishment of baselines, and auditing. It has the purpose of maintaining software
+integrity and traceability throughout the software development life cycle.
+• Programming languages have gone through evolutionary processes. Generation one is
+machine language (binary format). Generation two is assembly language (which is
+translated by an assembler into machine code). Generation three is high-level
+language (which provides a level of abstraction). Generation four is a very high-level
+language (which provides more programming abstraction). Generation five is natural
+language (which is translated using artificial intelligence).
+• Data modeling is a process used to define and analyze data requirements needed to
+support the business processes within the scope of corresponding systems and
+software applications.
+• Object-oriented programming provides modularity, reusability, and more granular
+control within the programs themselves compared to classical programming
+languages.
+• Objects are members, or instances, of classes. The classes dictate the objects’ data
+types, structure, and acceptable actions.
+• In OOP, objects communicate with each other through messages, and a method is
+functionality that an object can carry out. Objects can communicate properly because
+they use standard interfaces.
+• Polymorphism is when different objects are given the same input and react
+differently.
+1424
+• Data and operations internal to objects are hidden from other objects, which is
+referred to as data hiding. Each object encapsulates its data and processes.
+• Object-oriented design represents a real-world problem and modularizes the problem
+into cooperating objects that work together to solve the problem.
+• If an object does not require much interaction with other modules, it has low
+coupling.
+• The best programming design enables objects to be as independent and as modular as
+possible; therefore, the higher the cohesion and the lower the coupling, the better.
+• An object request broker (ORB) manages communications between objects and
+enables them to interact in a heterogeneous and distributed environment.
+• Common Object Request Broker Architecture (CORBA) provides a standardized
+way for objects within different applications, platforms, and environments to
+communicate. It accomplishes this by providing standards for interfaces between
+objects.
+• Component Object Model (COM) provides an architecture for components to
+interact on a local system. Distributed COM (DCOM) uses the same interfaces as
+COM, but enables components to interact over a distributed, or networked,
+environment.
+• Open Database Connectivity (ODBC) enables several different applications to
+communicate with several different types of databases by calling the required driver
+and passing data through that driver.
+• Object linking and embedding (OLE) enables a program to call another program
+(linking) and permits a piece of data to be inserted inside another program or
+document (embedding).
+• Service-oriented architecture (SOA) provides standardized access to the most needed
+services to many different applications at one time. Service interactions are selfcontained and loosely coupled so that each interaction is independent of any other
+interaction.
+• Java security employs a sandbox so the applet is restricted from accessing the user’s
+hard drive or system resources. Programmers have figured out how to write applets
+that escape the sandbox.
+• SOAP allows programs created with different programming languages and running
+on different operating systems to interact without compatibility issues.
+• There are three main types of cross-site scripting (XSS) attacks: nonpersistent XSS
+(exploiting the lack of proper input or output validation on dynamic websites),
+persistent XSS (attacker loads malicious code on a server that attacks visiting
+browsers), and DOM (attacker uses the DOM environment to modify the original
+client-side JavaScript).
+• A database management system (DBMS) is the software that controls the access
+restrictions, data integrity, redundancy, and the different types of manipulation
+available for a database.
+1425
+• A database primary key is how a specific row is located from other parts of the
+database in a relational database.
+• A view is an access control mechanism used in databases to ensure that only
+authorized subjects can access sensitive information.
+• A relational database uses two-dimensional tables with rows (tuples) and columns
+(attributes).
+• A hierarchical database uses a tree-like structure to define relationships between data
+elements, using a parent/child relationship.
+• Most databases have a data definition language (DDL), a data manipulation language
+(DML), a query language (QL), and a report generator.
+• A data dictionary is a central repository that describes the data elements within a
+database and their relationships.
+• Database integrity is provided by concurrency mechanisms. One concurrency control
+is locking, which prevents users from accessing and modifying data being used by
+someone else.
+• Entity integrity makes sure that a row, or tuple, is uniquely identified by a primary
+key, and referential integrity ensures that every foreign key refers to an existing
+primary key.
+• A rollback cancels changes and returns the database to its previous state. This takes
+place if there is a problem during a transaction.
+• A commit statement saves all changes to the database.
+• A checkpoint is used if there is a system failure or problem during a transaction. The
+user is then returned to the state of the last checkpoint.
+• Aggregation can happen if a user does not have access to a group of elements, but has
+access to some of the individual elements within the group. Aggregation happens if
+the user combines the information of these individual elements and figures out the
+information of the group of data elements, which is at a higher sensitivity level.
+• Inference is the capability to derive information that is not explicitly available.
+• Common attempts to prevent inference attacks are partitioning the database, cell
+suppression, and adding noise to the database.
+• Polyinstantiation is the process of allowing a table to have multiple rows with the
+same primary key. The different instances can be distinguished by their security levels
+or classifications.
+• Data warehousing combines data from multiple databases and data sources.
+• Data mining is the process of searching, filtering, and associating data held within a
+data warehouse to provide more useful information to users.
+• Data-mining tools produce metadata, which can contain previously unseen
+relationships and patterns.
+• A virus is an application that requires a host application for replication.
+• Macro viruses are common because the languages used to develop macros are easy to
+1426
+use and they infect Microsoft Office products, which are everywhere.
+• A polymorphic virus tries to escape detection by making copies of itself and
+modifying the code and attributes of those copies.
+• A worm does not require a host application to replicate.
+• A logic bomb executes a program when a predefined event takes place, or a date and
+time are met.
+• A Trojan horse is a program that performs useful functionality apparent to the user
+and malicious functionally without the user knowing it.
+• Botnets are networks of bots that are controlled by C&C servers and bot herders.
+• Antimalware software is most effective when it is installed in every entry and end
+point and covered by a policy that delineates user training as well as software
+configuration and updating.
+• Assessing the security of acquired software, in addition to internal or third-party tests,
+requires that we assess the reliability and maturity of the vendor.
 """
 
 test = test.replace("•", "-")
