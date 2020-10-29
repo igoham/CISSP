@@ -120,12 +120,8 @@ message, though.
     - You should be aware of three basic types of MAC functions: a hash MAC
 (HMAC), CBC-MAC, and CMAC.
 
-- HMAC
-    - Joins the message with a symetric key pror to hashing the message. This creates a MAC that can be send wlong with the encrypted message
-    - Send the MAC along with the message to prove message integrity 
-    
-    
-    
+
+![MULTI TASKING](https://gyazo.com/eadef5dc04ec38e50a484e2c80f1a29d.png)
 
 **The Diffie-Hellman key exchange & RSA**
 the Diffie-Hellman key exchange is often implemented alongside RSA or other algorithms to provide authentication for the connection. If you are familiar with RSA, you may be wondering why anyone would bother using the Diffie-Hellman key exchange as well, since RSA enables parties who have never previously met to communicate securely

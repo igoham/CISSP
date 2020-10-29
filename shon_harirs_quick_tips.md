@@ -42,9 +42,10 @@ improved upon.
 and standard approach.
 - Security enterprise architecture should tie in strategic alignment, business
 enablement, process enhancement, and security effectiveness.
-- NIST SP 800-53 uses the following control categories: technical, management, and
-238
-operational.
+- NIST SP 800-53 uses the following control categories: 
+    - technical
+    - management
+    - operational
 - Civil law system
     - Uses prewritten rules and is not based on precedent.
     - Is different from civil (tort) laws, which work under a common law system.
