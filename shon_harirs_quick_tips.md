@@ -680,7 +680,7 @@ instead of the legitimate one.
 instead of the legitimate one.
 
 
-# Chapter Five -
+# Chapter Five - Identity and Access Management
 
 - Access is a flow of information between a subject and an object.
 - A subject is an active entity that requests access to an object, which is a passive entity.
@@ -837,7 +837,7 @@ services to be used within multiple, separate systems from several business doma
 communication through the use of radio waves.
 
 
-# Chapter Six -
+# Chapter Six - Security Assessment and Testing
 
 - An audit is a systematic assessment of the security controls of an information system.
 - Setting a clear set of goals is probably the most important step of planning a security
@@ -912,7 +912,7 @@ accomplishing their goals.
 
 
 
-# Chapter Seven -
+# Chapter Seven - Security Operations
 
 - Facilities that house systems that process sensitive information should have physical
 access controls to limit access to authorized personnel only.
@@ -1041,7 +1041,7 @@ custody was not broken.
 something they don’t want to do or otherwise wouldn’t do.
 
 
-# Chapter Eight -
+# Chapter Eight - Software Development Security
 
 - Security should be addressed in each phase of system development. It should not be
 addressed only at the end of development because of the added cost, time, and effort
