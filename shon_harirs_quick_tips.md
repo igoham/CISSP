@@ -46,20 +46,18 @@ enablement, process enhancement, and security effectiveness.
 238
 operational.
 - Civil law system
-- Uses prewritten rules and is not based on precedent.
-- Is different from civil (tort) laws, which work under a common law system.
+    - Uses prewritten rules and is not based on precedent.
+    - Is different from civil (tort) laws, which work under a common law system.
 - Common law system
-- Made up of criminal, civil, and administrative laws.
+    - Made up of criminal, civil, and administrative laws.
 - Customary law system
-- Addresses mainly personal conduct and uses regional traditions and customs as the
-foundations of the laws.
-- Is usually mixed with another type of listed legal system rather than being the sole
-legal system used in a region.
+    - Addresses mainly personal conduct and uses regional traditions and customs as the foundations of the laws.
+    - Is usually mixed with another type of listed legal system rather than being the sole legal system used in a region.
 - Religious law system
-- Laws are derived from religious beliefs and address an individual’s religious
+    - Laws are derived from religious beliefs and address an individual’s religious
 responsibilities; commonly used in Muslim countries or regions.
 - Mixed law system
-- Uses two or more legal systems.
+    - Uses two or more legal systems.
 - Criminal law deals with an individual’s conduct that violates government laws
 developed to protect the public.
 - Civil law deals with wrongs committed against individuals or companies that result in
