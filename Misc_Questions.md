@@ -334,6 +334,7 @@ For example a,b,c,g,n,ac
 **What are the different wireless modes for enterprise**
 **Review Cabling**
 **Review PBX's**
+**What is a take-grant permission model**
 **Review IDS / IDPS from domain 5**
 **Review remote access topics in book**
 **Review federation, SSO, 0auth, SAML, OIDC**
@@ -366,5 +367,24 @@ For example a,b,c,g,n,ac
 - DevOps
 
 **review rootkits**
+**Define the following database terms**
+
+- Atomicity
+- Isolation
+- Consistency
+- Durability
+
+
+**Kerberos**
+
+**TCP Handshake**
+ 
+1. SYN - Client1 -> Client2
+1. SYN-ACK - Client2 -> client 1
+1. ACk - Client 1 -> client 2
+
+**What uses start and stop flags in transmission**
+
+**Review alarm sensor types for physical security**
 
 ****
