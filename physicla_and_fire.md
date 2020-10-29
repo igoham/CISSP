@@ -9,12 +9,76 @@ to contain a fire for a specific period. For example, a 5/8-inch-thick drywall s
 installed on each side of a wood stud provides a one-hour rating. If the thickness of this
 drywall is doubled, then this would be given a two-hour rating
 
+![OSI to TCP IP models](https://gyazo.com/7b24dca9ae8c97ba00d182ba61a22f95.png)
+
+A fire needs fuel, oxygen, and high temperatures. Table 3-6 shows how different
+suppression substances interfere with these elements of fire.
+
+
+![OSI to TCP IP models](https://gyazo.com/7c2a23118c7256d7eeb122e589c765d6.png)
+
+**NOTE** Halon has not been manufactured since January 1, 1992, by international
+agreement. The Montreal Protocol banned halon in 1987, and countries were given
+until 1992 to comply with these directives. The most effective replacement for halon is
+FM-200, which is similar to halon but does not damage the ozone.
+
+
+#### Water Sprinklers
+
+Water sprinklers typically are simpler and less expensive than FM-200 system, but can
+cause water damage. In an electrical fire, the water can increase the intensity of the fire
+because it can work as a conductor for electricity—only making the situation worse. If
+water is going to be used in any type of environment with electrical equipment, the
+electricity must be turned off before the water is released. Sensors should be used to shut
+562
+
+
+down the electric power before water sprinklers activate. Each sprinkler head should
+activate individually to avoid wide-area damage, and there should be shutoff valves so the
+water supply can be stopped if necessary.
+A company should take great care in deciding which suppression agent and system is
+best for it. Four main types of water sprinkler systems are available:
+
+
+- Wet pipe Wet pipe systems always contain water in the pipes and are usually
+discharged by temperature control–level sensors. One disadvantage of wet pipe
+systems is that the water in the pipes may freeze in colder climates. Also, if there is a
+nozzle or pipe break, it can cause extensive water damage. These types of systems are
+also called closed-head systems.
+
+- Dry pipe In dry pipe systems, the water is not actually held in the pipes. The water is
+contained in a “holding tank” until it is released. The pipes hold pressurized air,
+which is reduced when a fire or smoke alarm is activated, allowing the water valve to
+be opened by the water pressure. Water is not allowed into the pipes that feed the
+sprinklers until an actual fire is detected. First, a heat or smoke sensor is activated;
+then, the water fills the pipes leading to the sprinkler heads, the fire alarm sounds, the
+electric power supply is disconnected, and finally water is allowed to flow from the
+sprinklers. These pipes are best used in colder climates because the pipes will not
+freeze. Figure 3-62 depicts a dry pipe system.
+
+- Preaction Preaction systems are similar to dry pipe systems in that the water is not
+held in the pipes, but is released when the pressurized air within the pipes is reduced.
+Once this happens, the pipes are filled with water, but it is not released right away. A
+thermal-fusible link on the sprinkler head has to melt before the water is released. The
+purpose of combining these two techniques is to give people more time to respond to
+false alarms or to small fires that can be handled by other means. Putting out a small
+fire with a handheld extinguisher is better than losing a lot of electrical equipment to
+water damage. These systems are usually used only in data processing environments
+rather than the whole building because of the higher cost of these types of systems.
+
+- Deluge A deluge system has its sprinkler heads wide open to allow a larger volume of
+water to be released in a shorter period. Because the water being released is in such
+large volumes, these systems are usually not used in data processing environments.
+
+
+
+
 ## Computer Related Power topics
 
 Most computer circuits use only 2 to 5 volts of direct
 current, which usually cannot start a fire.
 
-![OSI to TCP IP models](https://gyazo.com/7b24dca9ae8c97ba00d182ba61a22f95.png)
+
 
 #
 **Look up the different terms for spikes and dips in energy**
