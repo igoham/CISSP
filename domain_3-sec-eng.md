@@ -78,9 +78,9 @@ Only one goal **Prevents conflicts of interest**
 
 Helps break an enterprise into components so you can apply securry to help comm
 
-(https://www.youtube.com/watch?v=fwU7n_3h058)
-**Walk through the TCP**
 
+## The Trusted Computing Base
+https://www.youtube.com/watch?v=fwU7n_3h058
 The TCB refers to ALL of the protection mechanisms that are responsible for protection of a system
 
 - Reference Monitor Concept
@@ -98,6 +98,28 @@ The TCB refers to ALL of the protection mechanisms that are responsible for prot
     - Verifiability
         - Logging and monitoring to verify mediation is working properly 
         
-        
-        
+### Storage Types
 
+There are three types of storage
+
+- Primrcy
+    - CPU registers, RAM
+- Secondary
+    - Optical drives, HDDS,
+- Virtual Memory - Paging or swapping
+    - Temporarily puts data from RAM onto secondary storage as RAM is full.
+
+### Software Components
+- System Kernel
+    - Different from security kernel
+- Firmware
+    - Provides low level control of hardware
+- Middleware 
+    - is a translator for two pieces of software that do not know how to communicate directly
+
+### Protection Mechanisms
+All modern OS's are multi tasking systems so we need to ensure that processes cant interfere with each other
+
+- Process isolation
+- Time division multiplexing
+    - Processess can access resouces ( such as cpu ) one at a time
