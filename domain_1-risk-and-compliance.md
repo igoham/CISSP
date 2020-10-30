@@ -44,7 +44,8 @@ The RMF has six steps
 
 Used to determine classification levels of systems in NIST SP 800-37
 
-https://gyazo.com/4712f7210d654bcb15e1caa28a8d9db8
+
+![FIPS 199](https://gyazo.com/4712f7210d654bcb15e1caa28a8d9db8.png)
 
 - NIST 800-37
     - What are the 6 steps - MUST KNOW
@@ -68,6 +69,7 @@ https://gyazo.com/4712f7210d654bcb15e1caa28a8d9db8
 **Software Piracy**
 This is a huge issue!
 
-https://gyazo.com/aa8f441b52a8192d68184a7b717d3b0f
+![Piracy numbers](https://gyazo.com/aa8f441b52a8192d68184a7b717d3b0f.png)
+
 
     
