@@ -378,14 +378,22 @@ For example a,b,c,g,n,ac
 
 **Why destroy SSDs to prevent data leaks?**
 
-**What are the different actions you can take with risk  minamize it?**
+Solid State Drives (SSD): These use flash memory to store data and data is not overwritten. It is way faster than HDD, as the data is accessed directly via a flash translation layer, thus reducing time for head movement. Because of this, when it comes to data remanence, simple overwriting won’t work with SSD. the following techniques should be used:
 
-**What is the EU - US Privacy shield?**
+    Built in sanitization commands
+    Crypto-erase
+    Sanitization
+
+
+**What are the different actions you can take with risk  minamize it?**
 
 **Research Identity Proofing**
 
+At its core, identity proofing is an approach for verifying and authenticating the identity of individuals accessing an application. It uses knowledge-based user attributes, document verification, wallet-based factors, ID verification, and national identity systems to confirm that a person logging in is who they say they are. This allows for users to self-verify, making for a secure authentication process that doesn’t compromise user experience.
+
 **Difference between Due dilligence and due care**
 
+See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-diligence
 
 **What is it called when you capture traffic and then replay it against a sight for performance testing**
 
