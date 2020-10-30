@@ -390,8 +390,22 @@ For example a,b,c,g,n,ac
 **Why destroy SSDs to prevent data leaks?**
 
 **What are the different actions you can take with risk  minamize it?**
+
 **What is the EU - US Privacy shield?**
-**Research Identity Proofing **
+
+**Research Identity Proofing**
+
+**Difference between Due dilligence and due care**
+
+
+**What is it called when you capture traffic and then replay it against a sight for performance testing**
+
+**Review Biometrics**
+
+**Research evidence rules from book**
+
+
+
 ****
 
 
