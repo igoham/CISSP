@@ -47,10 +47,35 @@ Used to determine classification levels of systems in NIST SP 800-37
 
 ![FIPS 199](https://gyazo.com/4712f7210d654bcb15e1caa28a8d9db8.png)
 
-- NIST 800-37
-    - What are the 6 steps - MUST KNOW
+
 - ISO 31000
 - COSO
+    -  identifies 17
+internal control principles that are grouped into five internal control components as
+listed here.
+    - Control Environment:
+1. Demonstrates commitment to integrity and ethical values
+2. Exercises oversight responsibilities
+3. Establishes structure, authority, and responsibility
+4. Demonstrates commitment to competence
+5. Enforces accountability
+Risk Assessment:
+6. Specifies suitable objectives
+7. Identifies and analyzes risk
+8. Assesses fraud risk
+9. Identifies and analyzes significant change
+Control Activities:
+10. Selects and develops control activities
+11. Selects and develops general controls over technology
+12. Deploys through policies and procedures
+Information and Communication:
+13. Uses relevant, quality information
+14. Communicates internally
+15. Communicates externally
+84
+Monitoring Activities:
+16. Conducts ongoing and/or separate evaluations
+17. Evaluates and communicates deficiencies
 - ISACA RISK IT
 
 
