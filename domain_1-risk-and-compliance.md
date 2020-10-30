@@ -1,12 +1,12 @@
 # Security Frameworks
 
-- NIST SP 800-53 - Provides a set of privacy and security controls
+- NIST SP 800-53 - Provides a list of privacy and security controls
     - for us federal agencies and organizations
     - Provides 3 impact levels
         - Low
         - Medium
         - High
-    - You must identify which      
+    - You must identify which impact level the system is identifed as. This is done in step one of NIST SP 800-37
 
 - COSO - Mainly conferned with preventing internal financial fraud but does contain guidance on security
 - HIPPA - 
@@ -16,7 +16,7 @@ to be flase the exec can be held personally liable
 
 ## Privacy,
 
-## Risk
+## Security and Risk Frameworks
 ### NIST SP 800-37 - Risk Management Framework
 
 The RMF has six steps
@@ -48,9 +48,10 @@ Used to determine classification levels of systems in NIST SP 800-37
 ![FIPS 199](https://gyazo.com/4712f7210d654bcb15e1caa28a8d9db8.png)
 
 
-- ISO 31000
-- COSO
-    -  identifies 17
+
+## COSO
+
+-  identifies 17
 internal control principles that are grouped into five internal control components as
 listed here.
 ### Control Environment:
@@ -76,6 +77,8 @@ listed here.
 ### Monitoring Activities:
 16. Conducts ongoing and/or separate evaluations
 17. Evaluates and communicates deficiencies
+
+- ISO 31000
 - ISACA RISK IT
 
 
