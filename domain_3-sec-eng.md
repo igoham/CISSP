@@ -123,3 +123,17 @@ All modern OS's are multi tasking systems so we need to ensure that processes ca
 - Process isolation
 - Time division multiplexing
     - Processess can access resouces ( such as cpu ) one at a time
+- Processor States - CPus provide a few different levels of access to their functions
+    - Problem state - Normal app levels
+        - Lower privledge level ( user land)
+        - Name comes from the fact that programs running at this level are meant to solve problems
+    - Supervisor - Higher pricledge levels
+        - Full access to CPU capabilities
+- Operating system modes
+    - User mode
+    - Kernel Mode
+- Ring protection Model
+    - Ring 0 - Kernel, Firmware
+    - Ring 1 - Drivers
+    - Ring 2 - Not used in windows
+    - Ring 3 - User Programs
