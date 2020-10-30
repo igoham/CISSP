@@ -1,4 +1,5 @@
-# Security Frameworks
+
+## Security and Risk Frameworks
 
 - NIST SP 800-53 - Provides a list of privacy and security controls
     - for us federal agencies and organizations
@@ -8,15 +9,13 @@
         - High
     - You must identify which impact level the system is identifed as. This is done in step one of NIST SP 800-37
 
-- COSO - Mainly conferned with preventing internal financial fraud but does contain guidance on security
 - HIPPA - 
 - SOX - Requires top management to individually certify the accuracy of each finacial report and if the reports and found
 to be flase the exec can be held personally liable 
 
 
-## Privacy,
 
-## Security and Risk Frameworks
+
 ### NIST SP 800-37 - Risk Management Framework
 
 The RMF has six steps
@@ -54,6 +53,7 @@ Used to determine classification levels of systems in NIST SP 800-37
 -  identifies 17
 internal control principles that are grouped into five internal control components as
 listed here.
+- Mainly conferned with preventing internal financial fraud but does contain guidance on security
 ### Control Environment:
 1. Demonstrates commitment to integrity and ethical values
 2. Exercises oversight responsibilities
@@ -81,6 +81,29 @@ listed here.
 - ISO 31000
 - ISACA RISK IT
 
+## Privacy
+**EU-US Privacy sheild**
+
+https://www.privacyshield.gov/
+
+The Privacy sheild has the following principles
+
+1. Notice
+    - Must provide notice for a long list of items - https://www.privacyshield.gov/article?id=1-NOTICE
+2. Choice
+    - Individuals should have the opportunity to opt out
+    - (i) to be disclosed to a third party or 
+    - (ii) to be used for a purpose that is materially different from the purpose(s) for which it was originally collected or subsequently authorized by the individuals
+3. Accountability for Onward Transfer
+    - 3p must also use for the agreed upon purpose
+    - Must adbive by above rules
+    - ascertain that the agent is obligated to provide at least the same level of privacy protection as is required by the Principles; 
+    - (iii) take reasonable and appropriate steps to ensure that the agent effectively processes the personal information transferred in a manner consistent with the organization’s obligations under the Principles;
+4. Security
+5. Data Integrity and Purpose Limitation
+6. Access
+    - ndividuals must have access to personal information about them that an organization holds and be able to correct, amend, or delete that information where it is inaccurate, or has been processed in violation of the Principles, except where the burden or expense of providing access would be disproportionate to the risks to the individual’s privacy in the case in question, or where the rights of persons other than the individual would be violated.
+7. Recourse, Enforcement and Liability
 
 
 **Define the following terms**
@@ -95,6 +118,7 @@ listed here.
     - Must be novel, useful and not obvious
     
 **Software Piracy**
+
 This is a huge issue!
 
 ![Piracy numbers](https://gyazo.com/aa8f441b52a8192d68184a7b717d3b0f.png)
