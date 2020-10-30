@@ -299,18 +299,11 @@ All users can access SOME data, based on their need to know, clearance and forma
 - Do they use DSS for authentication?
 
 
-**Define the following Access Control Models**
-- Bell-Lapadula Model
-- Biba Model
-- Clark Wilson Model
-- Noneinterference Model
-- Brewer nash model
-- Graham-Denning Model
-- Harrison Ruzzo Ulman Model
+
 
 **What is a constrained process**
 
-**What is the refernce monitor in the TCB**
+
 
 **Define the following Definitions**
 - Security Policy

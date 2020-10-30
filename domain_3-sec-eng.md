@@ -63,9 +63,41 @@ Only one goal **Prevents conflicts of interest**
 
 ### Harrision Ruzzo - Ulman
 
-### Brewer-Nash
+### Noneinterference Model
+
+
+**Define the following Access Control Models**
+
+- Noneinterference Model
+- Graham-Denning Model
+- Harrison Ruzzo Ulman Model
+
 
 **What is TOGAF**
 - How does it differ from Zachman or SABSA
 
 Helps break an enterprise into components so you can apply securry to help comm
+
+(https://www.youtube.com/watch?v=fwU7n_3h058)
+**Walk through the TCP**
+
+The TCB refers to ALL of the protection mechanisms that are responsible for protection of a system
+
+- Reference Monitor Concept
+    - What subjects are allowed to access what objects
+    - The TCB mediates the access between all subjects and objects
+    - Mediation occurs based on a set of rules - MAC / DAC?
+    - Every control should have an assurance 
+    
+![OSI to TCP IP models](https://gyazo.com/c50a521ef31069e5d67a48981b53f592.png)
+    
+- Security Kernel - All security kernels must follow 3 rules
+    - Subject can never bypass mediation in RMC
+    - Isolation - Rules are tamper proof! 
+        - The rules are isolated from user space
+    - Verifiability
+        - Logging and monitoring to verify mediation is working properly 
+        
+        
+        
+
