@@ -204,11 +204,7 @@ What are the ESP and AH modes and how are they commonly used together - ESP tunn
 What is the average tempature and humidity for a server toom
 What are the relevant US and EU laws around privacy
 
-**Define the following terms**
-- Trademark
-- Copyright
-- IP
-- Patent
+
 
 **Which algorithms are strongest bit for bit**
 **What is a meet in the middle attack**
