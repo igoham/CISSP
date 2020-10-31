@@ -147,8 +147,14 @@ Cryptographic algorithms defined for use with IPsec include:
 
 **What are type 1 and 2 for biomeethics errors?**
 
-- A type 1 error is a false positice
+- A type 1 error is a false positive
+    - For Biometrics this is when the requestor is falsely REJECTED
+    - FRR
+    = Falsely rejected a VALID user
 - A type 2 error is a false negative
+    - Bor Biometrics this si when the requestor is falselt ACCEPTED
+    - FAR
+    - Falsely accepted an INVALID user
 
 
 **What are the differentces bettwen CSMA/CA and CSMA/CD**
@@ -374,6 +380,8 @@ For example a,b,c,g,n,ac
 
 **What uses start and stop flags in transmission**
 
+Synchronous communications uses start and stop flags in communications  
+
 **Review alarm sensor types for physical security**
 
 **Why destroy SSDs to prevent data leaks?**
@@ -401,9 +409,31 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 
 **Research evidence rules from book**
 
+**What is NIST SP 800-18**
 
+**Touch up on account provisioning**
 
-****
+**E discovery reference model** - 1
+**Ethernet Cable speeds** - 4
+**What is a smurf attack vs fragle vs teardrop** - 5
+**Review Fuzzing Types** - 8
+**What is the devops model** - ???
+**Touch up on cloud models**
+- Private
+- Public
+- Shared
+- Hybrid
+                              
+**Review pen test phases**
+**Review PM tools**
+- Work breakdown structure document
+**Network classes and maximum hosts per class network**
+**802.11 table MUST be known**
 
+**ITSM vs ITIL**
+**Number of keys for Sym VS Asym**
+**xTacas vs tacas+_**
+**Review calculating ARO for and EF values for 200 - 400 year events**
+**Review SOC1,2,3 and each types**
 
 
