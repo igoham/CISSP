@@ -1,5 +1,12 @@
 **Encrpytion Keys**
-- The number of keys can be determined by doing 2^N where N = key length in bits
+- The number of keys for a specific keyspace can be determined by doing 2^N where N = key length in bits
+    - If the keyspace is 5 bits long how many possible keys
+        - 32
+- The number of keys required to connect N parties using symmetric crypto is given by the forumal -( N * (N-1))/2
+    - How many encryption keys are required to implement a symmetric algorithm with 12 participants?
+        - 66
+- For Asymmetric keys the formula is 2n
+    - if there are 10 particians you need 20 keys
 
 # Symmetric Encryption
 

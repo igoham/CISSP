@@ -427,13 +427,14 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 **Review pen test phases**
 **Review PM tools**
 - Work breakdown structure document
-**Network classes and maximum hosts per class network**
-**802.11 table MUST be known**
 
 **ITSM vs ITIL**
-**Number of keys for Sym VS Asym**
-**xTacas vs tacas+_**
+
 **Review calculating ARO for and EF values for 200 - 400 year events**
 **Review SOC1,2,3 and each types**
-
+**Breakdown the following**
+- Policy
+- Standard
+- Baseline
+- Prodecure
 
