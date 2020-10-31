@@ -81,8 +81,8 @@ listed here.
 - ISO 31000
 - ISACA RISK IT
 
-## Privacy
-**EU-US Privacy sheild**
+# Privacy
+## EU-US Privacy shield
 
 https://www.privacyshield.gov/
 
@@ -105,7 +105,7 @@ The Privacy sheild has the following principles
     - ndividuals must have access to personal information about them that an organization holds and be able to correct, amend, or delete that information where it is inaccurate, or has been processed in violation of the Principles, except where the burden or expense of providing access would be disproportionate to the risks to the individual’s privacy in the case in question, or where the rights of persons other than the individual would be violated.
 7. Recourse, Enforcement and Liability
 
-**8 principles of GDPR**
+## 8 principles of GDPR**
 
 1. The right to be informed
 
