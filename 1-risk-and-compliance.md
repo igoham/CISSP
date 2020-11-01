@@ -1,7 +1,8 @@
 
 ## Security and Risk Frameworks
 
-- NIST SP 800-53 - Provides a list of privacy and security controls
+- NIST SP 800-53 - Provides a list of privacy and security controls. These controls map to the required security level identified in NIST SP 800-37.
+    - System with high level of security = high impact controls 
     - for us federal agencies and organizations
     - Provides 3 impact levels
         - Low
@@ -144,14 +145,23 @@ The Privacy sheild has the following principles
 
 **Define the following terms**
 - Trademark
+    - Can be renewed indefinitely  
 - Copyright
+    - Protection for 70 years or the death of the author
+    - if in a group the death of the last author
 - IP
     - Intellectual property is any data, software, algorithm or knowledge created within a company or by an individual
 - Trade Secret 
     - Any information that would give a company an operational edge
+    - Maints its status as a secret as long as the secret is not given up
 - Patent
     - A patent is the strong form of IP protection
     - Must be novel, useful and not obvious
+    - Lasts 20 years
+
+- Which hash the shortest protection mechanism?
+    - **A**: Patent
+
     
 **Software Piracy**
 

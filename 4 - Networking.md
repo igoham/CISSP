@@ -21,4 +21,8 @@ Tacas+
 - Introduced 2fa
 - ONLY tcp
 
+## VPNS
 
+### L2TP
+- The only one of the four common vpn protovols that can natiley support non-ip protocols. 
+    - PPTP, l2f, and IPSEC are all only IP protocols

@@ -7,6 +7,13 @@
         - 66
 - For Asymmetric keys the formula is 2n
     - if there are 10 particians you need 20 keys
+    
+    
+- Triple DES works in two modes: Number of modes dictates steps of encryption
+    - Two key more
+    - Three key mode
+        -
+    - If only ONE key is used it is a very weak cipher
 
 # Symmetric Encryption
 
@@ -74,6 +81,11 @@ SHA384| 384 Bits | 512 Bits
 SHA512| 512 Bits | 512 Bits
 
 # Asymmetric Encryption
+
+- When using Asymmetric encryption the sender encrypts the message with the recipients public key.
+- The recipient uses their private key to decrypt.
+- This ensures that ONLY the intended recipient of the message can read it thus enforcing confidentiality.
+
 
 - Diffie Hellman
     - https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2
