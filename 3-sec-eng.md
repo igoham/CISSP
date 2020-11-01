@@ -65,6 +65,7 @@ Only one goal **Prevents conflicts of interest**
 
 ### Noneinterference Model
 
+### The grant take model
 
 **Define the following Access Control Models**
 
@@ -137,3 +138,23 @@ All modern OS's are multi tasking systems so we need to ensure that processes ca
     - Ring 1 - Drivers
     - Ring 2 - Not used in windows
     - Ring 3 - User Programs
+
+
+
+
+### EAL Ratings
+
+- **EAL1**: Functionally Tested
+
+- **EAL2**: Structurally Tested
+
+- **EAL3**: Methodically Tested and Checked
+
+- **EAL4**: Methodically Designed, Tested and Reviewed
+
+- **EAL5**: Semiformally Designed and Tested
+
+- **EAL6**: Semiformally Verified Design and Tested
+- **EAL7**: Formally Verified Design and Tested
+
+

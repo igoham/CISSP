@@ -415,7 +415,7 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 
 **E discovery reference model** - 1
 **Ethernet Cable speeds** - 4
-**What is a smurf attack vs fragle vs teardrop** - 5
+**What is a smurf attack vs fragle vs teardrop vs land attack** - 5
 **Review Fuzzing Types** - 8
 **What is the devops model** - ???
 **Touch up on cloud models**
@@ -438,3 +438,22 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 - Baseline
 - Prodecure
 
+**EAP vs PEAP vs EAP-TLS**
+EAP expected phyicall security to be in place and thus did not require encryption.
+
+**What is the difference between transpotion and subtitution**
+**Evacuation proceedures?**
+**differrence between tpyo squatting and cyber squatting**
+**Reciew IEEE 802.11i**
+**Review GRE Genetric routing encapsulation headers**
+**GDPR**
+- Does each member state have to create their own protetion authority?      
+    - I Assume NO!
+
+**Difference between Async and Synchronous dynamic password tokens**
+**How do CRLs work**
+****
+****
+****
+****
+****

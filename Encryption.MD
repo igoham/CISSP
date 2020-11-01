@@ -12,8 +12,8 @@
 - Triple DES works in two modes: Number of modes dictates steps of encryption
     - Two key more
     - Three key mode
-        -
     - If only ONE key is used it is a very weak cipher
+        - Never use one key with 3des!!!!
 
 # Symmetric Encryption
 
