@@ -317,22 +317,35 @@ All users can access SOME data, based on their need to know, clearance and forma
 **What are the core differences between BCP and DRP**
 
 **What are the stages or steps in a BCP**
+
 **What are the stages or steps in a DRP**
+
 **What are the ISC code of ethics IN ORDER**
+
 **Review public and military classification names**
+
 **Review Memory Types**
+
 **Review x.25 VS ATM vs SONNET vs FDDI**
+
 **Review wireless standards**
 
 For example a,b,c,g,n,ac
 
 **What are the different wireless modes for enterprise**
+
 **Review Cabling**
+
 **Review PBX's**
+
 **What is a take-grant permission model**
+
 **Review IDS / IDPS from domain 5**
+
 **Review remote access topics in book**
+
 **Review federation, SSO, 0auth, SAML, OIDC**
+
 **Review the following access control mechanisms**
 
 - Discretionary Access Control
@@ -362,6 +375,7 @@ For example a,b,c,g,n,ac
 - DevOps
 
 **review rootkits**
+
 **Define the following database terms**
 
 - Atomicity
@@ -414,43 +428,61 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 **Touch up on account provisioning**
 
 **E discovery reference model** - 1
+
 **Ethernet Cable speeds** - 4
+
 **What is a smurf attack vs fragle vs teardrop vs land attack** - 5
+
 **Review Fuzzing Types** - 8
+
 **What is the devops model** - ???
+
 **Touch up on cloud models**
+
 - Private
 - Public
 - Shared
 - Hybrid
                               
 **Review pen test phases**
+
 **Review PM tools**
+
 - Work breakdown structure document
 
 **ITSM vs ITIL**
 
 **Review calculating ARO for and EF values for 200 - 400 year events**
+
 **Review SOC1,2,3 and each types**
+
 **Breakdown the following**
+
 - Policy
 - Standard
 - Baseline
 - Prodecure
 
 **EAP vs PEAP vs EAP-TLS**
+
 EAP expected phyicall security to be in place and thus did not require encryption.
 
 **What is the difference between transpotion and subtitution**
+
 **Evacuation proceedures?**
+
 **differrence between tpyo squatting and cyber squatting**
+
 **Reciew IEEE 802.11i**
+
 **Review GRE Genetric routing encapsulation headers**
+
 **GDPR**
 - Does each member state have to create their own protetion authority?      
     - I Assume NO!
 
 **Difference between Async and Synchronous dynamic password tokens**
+
 **How do CRLs work**
 ****
 ****
