@@ -1,3 +1,8 @@
+# Celia
+## SDLC
+
+
+![Data Normalization](https://gyazo.com/c404cbc7c33d8420a8cb1c705096e57f.png)
 
 **What is an object oriented database?**
 
