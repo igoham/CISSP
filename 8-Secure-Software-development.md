@@ -1,5 +1,14 @@
-# Celia
+
 ## SDLC
+1. Planning
+    - tes tasdsd
+1. Requirements analysis
+    - The users must
+1. 
+1. 
+1. 
+1. 
+1. 
 
 
 ![Data Normalization](https://gyazo.com/c404cbc7c33d8420a8cb1c705096e57f.png)
