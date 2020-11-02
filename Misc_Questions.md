@@ -20,48 +20,8 @@ Server rooms  should be 68 (20*C) - 71(21.6*C) degrees Fahrenheit. The data cent
 - DNS is an Application layer protocol
 - DHCP works on the Data-link layer. This means that when a device needs an IP address they can only request one on the same network that its present on
 
-**What is a birthday attack?**
-
-*Used to cause collisions in hash functions*
-
-A birthday attack is a type of cryptographic attack that exploits the mathematics behind the birthday problem in probability theory. This attack can be used to abuse communication between two or more parties. The attack depends on the higher likelihood of collisions found between random attack attempts and a fixed degree of permutations (pigeonholes). With a birthday attack, it is possible to find a collision of a hash function in 2 n = 2 n / 2 {\textstyle {\sqrt {2^{n}}}=2^{n/2}} {\textstyle {\sqrt {2^{n}}}=2^{n/2}}, with 2 n {\textstyle 2^{n}} {\textstyle 2^{n}} being the classical preimage resistance security. There is a general (though disputed[1]) result that quantum computers can perform birthday attacks, thus breaking collision resistance, in 2 n 3 = 2 n / 3 {\textstyle {\sqrt[{3}]{2^{n}}}=2^{n/3}} {\textstyle {\sqrt[{3}]{2^{n}}}=2^{n/3}}.[2]
-
-**How does CVSS scoring work in detail?**
-
-- Open framework for communicating the characteristics and severity software vulnerabilities
 
 
-![PASTA](https://gyazo.com/2c81f9a026cad844b856b0b5f77cedeb.png)
-
-- Base - Consistent over time and across environments (Affects all the same way)
-- Temporal - characteristics that change over time
-- Environmental - Unique to a users envrioment 
-
-
-**What is an object oriented database?**
-
-An object-oriented database (OODBMS) or object database management system (ODBMS) is a database that is based on object-oriented programming (OOP). The data is represented and stored in the form of objects. OODBMS are also called object databases or object-oriented database management systems.
-
-ZODB *(ZOPE DB)* for Python is an example of a OODBMS
-
-**What is the different between Multi-Tasking, m-threading, m-procressing and pipelining**
-
-
-    Multiprogramming – A computer running more than one program at a time (like running Excel and Firefox simultaneously).
-    Multiprocessing – A computer using more than one CPU at a time.
-    Multitasking – Tasks sharing a common resource (like 1 CPU).
-    Multithreading is an extension of multitasking.
-
-*Multi Programming* - In a modern computing system, there are usually several concurrent application processes which want to execute. Now it is the responsibility of the Operating System to manage all the processes effectively and efficiently.
-One of the most important aspects of an Operating System is to multi program.
-In a computer system, there are multiple processes waiting to be executed, i.e. they are waiting when the CPU will be allocated to them and they begin their execution. These processes are also known as jobs. Now the main memory is too small to accommodate all of these processes or jobs into it. Thus, these processes are initially kept in an area called job pool. This job pool consists of all those processes awaiting allocation of main memory and CPU.
-CPU selects one job out of all these waiting jobs, brings it from the job pool to main memory and starts executing it. The processor executes one job until it is interrupted by some external factor or it goes for an I/O task.
-
-**The main idea of multi programming is to maximize the CPU time.**
-
-*Multi Tasking* - Multitasking is a logical extension of multi programming. The major way in which multitasking differs from multi programming is that multi programming works solely on the concept of context switching whereas multitasking is based on time sharing alongside the concept of context switching.
-
-![MULTI TASKING](https://gyazo.com/9eef70f19cdaac3d661cf1ffaee65645.png)
 
 
 **What is Data execution prevention DEP and Heap metadata protection. Touch up on ALSR (brief) = Pointer Encoding?**
@@ -483,7 +443,20 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 **Difference between Async and Synchronous dynamic password tokens**
 
-**How do CRLs work**
+
+
+**Enticement vs entrapment**
+
+**Data normalization Processes**
+![Data Normalization](https://gyazo.com/b8f7f3d1d4e39c120404b9fba409340e.png)
+
+
+- First, second third and fourth form normaliation
+
+
+
+**Attacks against RSA**
+**Obfustication techniques**
 ****
 ****
 ****

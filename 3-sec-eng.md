@@ -158,3 +158,22 @@ All modern OS's are multi tasking systems so we need to ensure that processes ca
 - **EAL7**: Formally Verified Design and Tested
 
 
+### Multi Programming
+**What is the different between Multi-Tasking, m-threading, m-procressing and pipelining**
+
+
+    Multiprogramming – A computer running more than one program at a time (like running Excel and Firefox simultaneously).
+    Multiprocessing – A computer using more than one CPU at a time.
+    Multitasking – Tasks sharing a common resource (like 1 CPU).
+    Multithreading is an extension of multitasking.
+
+*Multi Programming* - In a modern computing system, there are usually several concurrent application processes which want to execute. Now it is the responsibility of the Operating System to manage all the processes effectively and efficiently.
+One of the most important aspects of an Operating System is to multi program.
+In a computer system, there are multiple processes waiting to be executed, i.e. they are waiting when the CPU will be allocated to them and they begin their execution. These processes are also known as jobs. Now the main memory is too small to accommodate all of these processes or jobs into it. Thus, these processes are initially kept in an area called job pool. This job pool consists of all those processes awaiting allocation of main memory and CPU.
+CPU selects one job out of all these waiting jobs, brings it from the job pool to main memory and starts executing it. The processor executes one job until it is interrupted by some external factor or it goes for an I/O task.
+
+**The main idea of multi programming is to maximize the CPU time.**
+
+*Multi Tasking* - Multitasking is a logical extension of multi programming. The major way in which multitasking differs from multi programming is that multi programming works solely on the concept of context switching whereas multitasking is based on time sharing alongside the concept of context switching.
+
+![MULTI TASKING](https://gyazo.com/9eef70f19cdaac3d661cf1ffaee65645.png)

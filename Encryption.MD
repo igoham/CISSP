@@ -186,3 +186,11 @@ Elliptic Curve Cryptography (ECC) or Elliptic Curve Digital Signature Algorithm 
 Elliptic curve cryptography is a new cryptographic algorithm that has been developed for increased security and more robust network performance. Some researchers have claimed that ECC cryptography can provide as much strong security with a 164-bit key as other systems achieve with a 1024-bit key. With the advent of mobile devices being used for highly private transactions, more secure, low-overhead encryption schemes are becoming highly desirable. ECC cryptography helps to establish a level security equal to or greater than RSA or DSA, the two most widely-adopted encryption methods – and it does it with less computational overhead, requiring less processing power, and moving well beyond the mobile sphere in implementation.
 
 ECDSA (Elliptic Curve Digital Signature Algorithm) is based on DSA, but uses yet another mathematical approach to key generation. ECC is a mathematical equation taken on its own, but ECDSA is the algorithm that is applied to ECC to make it appropriate for security encryption. Like RSA and DSA, it is another asymmetric cryptographic scheme, but in ECC, the equation defines the public/private key pair by operations on points of elliptic curves, instead of describing it as the product of very large prime numbers.
+
+
+
+**What is a birthday attack?**
+
+*Used to cause collisions in hash functions*
+
+A birthday attack is a type of cryptographic attack that exploits the mathematics behind the birthday problem in probability theory. This attack can be used to abuse communication between two or more parties. The attack depends on the higher likelihood of collisions found between random attack attempts and a fixed degree of permutations (pigeonholes). With a birthday attack, it is possible to find a collision of a hash function in 2 n = 2 n / 2 {\textstyle {\sqrt {2^{n}}}=2^{n/2}} {\textstyle {\sqrt {2^{n}}}=2^{n/2}}, with 2 n {\textstyle 2^{n}} {\textstyle 2^{n}} being the classical preimage resistance security. There is a general (though disputed[1]) result that quantum computers can perform birthday attacks, thus breaking collision resistance, in 2 n 3 = 2 n / 3 {\textstyle {\sqrt[{3}]{2^{n}}}=2^{n/3}} {\textstyle {\sqrt[{3}]{2^{n}}}=2^{n/3}}.[2]

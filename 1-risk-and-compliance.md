@@ -171,3 +171,14 @@ This is a huge issue!
 
 
     
+
+**How does CVSS scoring work in detail?**
+
+- Open framework for communicating the characteristics and severity software vulnerabilities
+
+
+![PASTA](https://gyazo.com/2c81f9a026cad844b856b0b5f77cedeb.png)
+
+- Base - Consistent over time and across environments (Affects all the same way)
+- Temporal - characteristics that change over time
+- Environmental - Unique to a users envrioment 
