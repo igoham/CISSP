@@ -173,37 +173,6 @@ What are the relevant US and EU laws around privacy
 
 
 **Which algorithms are strongest bit for bit**
-**What is a meet in the middle attack**
-
-The meet-in-the-middle attack (MITM), a known plaintext attack[1], is a generic space–time tradeoff cryptographic attack against encryption schemes that rely on performing multiple encryption operations in sequence. The MITM attack is the primary reason why Double DES is not used and why a Triple DES key (168-bit) can be bruteforced by an attacker with 256 space and 2112 operations.
-
-Diffie and Hellman first proposed the meet-in-the-middle attack on a hypothetical expansion of a block cipher in 1977.[4] Their attack used a space–time tradeoff to break the double-encryption scheme in only twice the time needed to break the single-encryption scheme. 
-
-he MITM is a generic attack which weakens the security benefits of using multiple encryptions by storing intermediate values from the encryptions or decryptions and using those to improve the time required to brute force the decryption keys. This makes a Meet-in-the-Middle attack (MITM) a generic space–time tradeoff cryptographic attack.
-
-The MITM attack attempts to find the keys by using both the range (ciphertext) and domain (plaintext) of the composition of several functions (or block ciphers) such that the forward mapping through the first functions is the same as the backward mapping (inverse image) through the last functions, quite literally meeting in the middle of the composed function. For example, although Double DES encrypts the data with two different 56-bit keys, Double DES can be broken with 257 encryption and decryption operations. 
-
-
-**Certification vs Accredidation**
-
-
-
-Accreditation is the formal acceptance of the adequacy of a system’s overall security and
-functionality by management. The certification information is presented to management,
-or the responsible body, and it is up to management to ask questions, review the reports
-and findings, and decide whether to accept the product and whether any corrective action
-needs to take place
-
-**NOTE**
-*Certification is a technical review that assesses the security mechanisms and
-evaluates their effectiveness. Accreditation is management’s official acceptance of the
-information in the certification process findings.*
-
-
-Certification is the comprehensive technical evaluation of the security components and their
-compliance for the purpose of accreditation. A certification process may use safeguard
-evaluation, risk analysis, verification, testing, and auditing techniques to assess the
-appropriateness of a specific system
 
 **Review lesser encryption algorithms**
 - El Gamal
@@ -443,14 +412,8 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 **Difference between Async and Synchronous dynamic password tokens**
 
-
-
 **Enticement vs entrapment**
 
-
-
-
-- First, second third and fourth form normaliation
 
 
 

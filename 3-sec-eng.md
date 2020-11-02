@@ -177,3 +177,25 @@ CPU selects one job out of all these waiting jobs, brings it from the job pool t
 *Multi Tasking* - Multitasking is a logical extension of multi programming. The major way in which multitasking differs from multi programming is that multi programming works solely on the concept of context switching whereas multitasking is based on time sharing alongside the concept of context switching.
 
 ![MULTI TASKING](https://gyazo.com/9eef70f19cdaac3d661cf1ffaee65645.png)
+
+
+**Certification vs Accredidation**
+
+
+
+Accreditation is the formal acceptance of the adequacy of a system’s overall security and
+functionality by management. The certification information is presented to management,
+or the responsible body, and it is up to management to ask questions, review the reports
+and findings, and decide whether to accept the product and whether any corrective action
+needs to take place
+
+**NOTE**
+*Certification is a technical review that assesses the security mechanisms and
+evaluates their effectiveness. Accreditation is management’s official acceptance of the
+information in the certification process findings.*
+
+
+Certification is the comprehensive technical evaluation of the security components and their
+compliance for the purpose of accreditation. A certification process may use safeguard
+evaluation, risk analysis, verification, testing, and auditing techniques to assess the
+appropriateness of a specific system
