@@ -447,8 +447,7 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 **Enticement vs entrapment**
 
-**Data normalization Processes**
-![Data Normalization](https://gyazo.com/b8f7f3d1d4e39c120404b9fba409340e.png)
+
 
 
 - First, second third and fourth form normaliation
