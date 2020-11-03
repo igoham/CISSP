@@ -219,5 +219,19 @@ OCTAVE has three phases, which can be seen in Figure 11 [36]:
 ![Attack Trees](https://gyazo.com/7a13db4b225a990655695fec6f0fdbb9.png)
 
 1. Build asset-based threat profiles. (This is an organizational evaluation.) 
+    - Process 1: Identify enterprise knowledge (e.g., create and distribute an asset questionnaire, gather knowledge from senior management)
+
+    - Process 2: Identify operational area knowledge (e.g., create and distribute an asset questionnaire, gather knowledge from operational area management)
+
+    - Process 3: Identify staff knowledge (e.g., create and distribute an asset questionnaire, gather knowledge from staff)
+
+    - Process 4: Establish security requirements (e.g., combine the different perspectives from processes 1-3 to create a composite picture of assets and threats)
+
 2. Identify infrastructure vulnerability. (This is an evaluation of the information infrastructure.)
+    - Process 5: Map high-priority information assets to information infrastructure (e.g., identify the configuration of the organization’s information infrastructure, examine data flows and all access paths)
+
+    - Process 6: Perform infrastructure vulnerability evaluation (e.g., select intrusion scenarios and examine infrastructure)
 3. Develop a security strategy and plans. ( This is an identification of risks to the organization’s criti-cal assets and decision making.) 
+    - Process 7: Conduct multi-dimensional risk analysis (e.g., determine points of vulnerability in potential intrusion scenarios, examine assets exposed by the validated intrusion scenarios)
+
+    - Process 8: Develop protection strategy (e.g., identify candidate mitigation approaches, develop a comprehensive plan to manage security risks)

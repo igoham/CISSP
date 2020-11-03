@@ -108,6 +108,8 @@ The Privacy sheild has the following principles
 
 ## 8 principles of GDPR
 
+Each member state has their own Data Protection Authority! https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-are-data-protection-authorities-dpas_en
+
 1. The right to be informed
 
     - Both data processors and controllers are now obliged to provide information to data subjects about the personal data being collected, how it is going to be used, who it will be shared with, for how long it will be kept and the purpose of its processing.
