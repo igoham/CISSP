@@ -91,9 +91,13 @@ Two major types of covert channel
 **Define the following database terms**
 
 - Atomicity
+    - All changes occur or NOTHING changes
 - Isolation
+    - Transactions are invisibie to other users until they are complete
 - Consistency
+    - All updates to the database are consistent with the rules of the database
 - Durability
+    - Completed transactions will not be lost
 
 
 **What is an object oriented database?**
