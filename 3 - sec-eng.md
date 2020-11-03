@@ -1,6 +1,22 @@
+**Authentication**
+
+Authentication:
+
+    “Prove you are Thor”. – Should always be done with Multifactor Authentication!
+    Something you know – Type 1 Authentication (passwords, pass phrase, PIN etc.).
+    Something you have – Type 2 Authentication (ID, Passport, Smart Card, Token, cookie on PC etc.).
+    Something you are – Type 3 Authentication (and Biometrics) (Fingerprint, Iris Scan, Facial geometry etc.).
+    Somewhere you are – Type 4 Authentication (IP/MAC Address).
+    Something you do – Type 5 Authentication (Signature, Pattern unlock).
+
+
+
+**What humiditity and tempatures are acceptable for a data center**
+
+Server rooms  should be 68 (20*C) - 71(21.6*C) degrees Fahrenheit. The data center should be between 40% and 60% humidity.
+
+
 # Security Models - Lattice
-
-
 When tealing with security models there are a few key things to remember:
 
 - Simple generally refers to read
@@ -199,3 +215,70 @@ Certification is the comprehensive technical evaluation of the security componen
 compliance for the purpose of accreditation. A certification process may use safeguard
 evaluation, risk analysis, verification, testing, and auditing techniques to assess the
 appropriateness of a specific system
+
+
+
+**What are type 1 and 2 for biomeethics errors?**
+
+- A type 1 error is a false positive
+    - For Biometrics this is when the requestor is falsely REJECTED
+    - FRR
+    = Falsely rejected a VALID user
+- A type 2 error is a false negative
+    - Bor Biometrics this si when the requestor is falselt ACCEPTED
+    - FAR
+    - Falsely accepted an INVALID user
+    
+    
+
+**Define the following system security modes**
+##### Dedicated Security mode
+
+In this mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for ALL information on the system.
+    A valid need to know for ALL information on the system.
+
+All users can access ALL data. 
+
+#####  System high security mode
+
+In system high mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for ALL information on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know. 
+
+##### Compartmented security mode
+
+In this mode of operation, all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for ALL information on the system.
+    Formal access approval for SOME information they will access on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know and formal access approval. 
+##### Multilevel secuirt mode
+
+In multilevel security mode of operation (also called Controlled Security Mode), all users must have:
+
+    Signed NDA for ALL information on the system.
+    Proper clearance for SOME information on the system.
+    Formal access approval for SOME information on the system.
+    A valid need to know for SOME information on the system.
+
+All users can access SOME data, based on their need to know, clearance and formal access approval
+
+**Why destroy SSDs to prevent data leaks?**
+
+Solid State Drives (SSD): These use flash memory to store data and data is not overwritten. It is way faster than HDD, as the data is accessed directly via a flash translation layer, thus reducing time for head movement. Because of this, when it comes to data remanence, simple overwriting won’t work with SSD. the following techniques should be used:
+
+    Built in sanitization commands
+    Crypto-erase
+    Sanitization 

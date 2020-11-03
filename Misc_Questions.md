@@ -1,27 +1,3 @@
-**Authentication**
-
-Authentication:
-
-    “Prove you are Thor”. – Should always be done with Multifactor Authentication!
-    Something you know – Type 1 Authentication (passwords, pass phrase, PIN etc.).
-    Something you have – Type 2 Authentication (ID, Passport, Smart Card, Token, cookie on PC etc.).
-    Something you are – Type 3 Authentication (and Biometrics) (Fingerprint, Iris Scan, Facial geometry etc.).
-    Somewhere you are – Type 4 Authentication (IP/MAC Address).
-    Something you do – Type 5 Authentication (Signature, Pattern unlock).
-
-
-
-**What humiditity and tempatures are acceptable for a data center**
-
-Server rooms  should be 68 (20*C) - 71(21.6*C) degrees Fahrenheit. The data center should be between 40% and 60% humidity.
-
-**What layer does DNS and DHCP operate at?**
-
-- DNS is an Application layer protocol
-- DHCP works on the Data-link layer. This means that when a device needs an IP address they can only request one on the same network that its present on
-
-
-
 
 
 **What is Data execution prevention DEP and Heap metadata protection. Touch up on ALSR (brief) = Pointer Encoding?**
@@ -44,30 +20,6 @@ planned and that goals are met
 - Operations and maintenance Deploying the software and then ensuring that it is
 properly configured, patched, and monitored
 
-
-
-**Review all SCAP components**
-
-Starting with SCAP version 1.0 (November, 2009)
-* CVE - Common Vulnerabilities and Exposures - http://cve.mitre.org/ 
-* CCE -  Common Configuration Enumeration (CCE) - http://cce.mitre.org/
-* CPE - Common Platform Enumeration - http://scap.nist.gov/specifications/cpe/  
-* CVSS - Common Vulnerability Scoring System - http://www.first.org/cvss/ 
-* XCCDF - Extensible Configuration Checklist Description Format - http://scap.nist.gov/specifications/xccdf/
-* OVAL - Open Vulnerability and Assessment Language - [http://oval.mitre.org/ (OVAL)]
-Starting with SCAP version 1.1 (February, 2011)
-* OCIL - Open Checklist Interactive Language - http://scap.nist.gov/specifications/ocil/  
-Starting with SCAP version 1.2 (September, 2011)
-* AID - Asset Identification - [http://scap.nist.gov/specifications/ai/ 
-* ARF - Asset Reporting Format - http://scap.nist.gov/specifications/arf/ 
-* CCSS - Common Configuration Scoring System - http://csrc.nist.gov/publications/PubsNISTIRs.html#NIST-IR-7502 
-* TMSAD - Trust Model for Security Automation Data - http://scap.nist.gov/specifications/tmsad/ 
-Starting with SCAP version 1.3 (February, 2018)
-* SWID - Software Identification - https://csrc.nist.gov/projects/Software-Identification-SWID 
-
-**What is a pharming attack**
-
-Pharming is a cyberattack intended to redirect a website's traffic to another, fake site. Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software
 
 **How can you configure a remote access server to preform a callback?**
 
@@ -105,33 +57,15 @@ Cryptographic algorithms defined for use with IPsec include:
     AES-GCM providing confidentiality and authentication together efficiently.
     ChaCha20 + Poly1305 providing confidentiality and authentication together efficiently.
 
-**What are type 1 and 2 for biomeethics errors?**
-
-- A type 1 error is a false positive
-    - For Biometrics this is when the requestor is falsely REJECTED
-    - FRR
-    = Falsely rejected a VALID user
-- A type 2 error is a false negative
-    - Bor Biometrics this si when the requestor is falselt ACCEPTED
-    - FAR
-    - Falsely accepted an INVALID user
 
 
-**What are the differentces bettwen CSMA/CA and CSMA/CD**
-
-*CSMA/CA*
-
-CSMA/CA stands for Carrier Sense Multiple Access/ Collision Avoidance. It is a network protocol for transmission. It operates in the Medium Access Control Layer. This protocol is effective before the collision.
-
-*CSMA/CD*
-
-CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is also a network protocol for transmission and operates in the Medium Access Control Layer. In this protocol, each station senses the collision by broadcast sensing. In case of collision, the transmission is stopped and they send a jam signal and then wait for a random time context before retransmission.
-![MULTI TASKING](https://gyazo.com/8f5b4455c396c553b89475a5465ec1b5.png)
 
 
-What are no the differences between Multilevel, compartmented, systemhigh and dedicated
-**OSI to TCP/IP Darpa Model**
-![OSI to TCP IP models](https://gyazo.com/ab0362ff7c33f7648122d4bc0fdd0f94.png)
+
+
+**What are no the differences between Multilevel, compartmented, systemhigh and dedicated**
+
+
 
 **How does change management and Configuration management interface**
 
@@ -158,8 +92,6 @@ What is a Micro kernel and how is it used in a TCB
 
 A datagram is a basic transfer unit associated with a packet-switched network
 
-Each datagram has two components, a header and a data payload. The header contains all the information sufficient for routing from the originating equipment to the destination without relying on prior exchanges between the equipment and the network. Headers may include source and destination addresses as well as a type field. The payload is the data to be transported. This process of nesting data payloads in a tagged header is called encapsulation.
-![OSI to TCP IP models](https://gyazo.com/9823118ba732fe0c677cbc3ac948159f.png)
 
 What are the different wireless modes a client can use to connect to enterprise wifi network
 Are there any other populat x.XXx eg x.509 standards that are popular
@@ -182,49 +114,6 @@ What are the relevant US and EU laws around privacy
 - Skipjack
 
 
-**Define the following system security modes**
-##### Dedicated Security mode
-
-In this mode of operation, all users must have:
-
-    Signed NDA for ALL information on the system.
-    Proper clearance for ALL information on the system.
-    Formal access approval for ALL information on the system.
-    A valid need to know for ALL information on the system.
-
-All users can access ALL data. 
-
-#####  System high security mode
-
-In system high mode of operation, all users must have:
-
-    Signed NDA for ALL information on the system.
-    Proper clearance for ALL information on the system.
-    Formal access approval for ALL information on the system.
-    A valid need to know for SOME information on the system.
-
-All users can access SOME data, based on their need to know. 
-
-##### Compartmented security mode
-
-In this mode of operation, all users must have:
-
-    Signed NDA for ALL information on the system.
-    Proper clearance for ALL information on the system.
-    Formal access approval for SOME information they will access on the system.
-    A valid need to know for SOME information on the system.
-
-All users can access SOME data, based on their need to know and formal access approval. 
-##### Multilevel secuirt mode
-
-In multilevel security mode of operation (also called Controlled Security Mode), all users must have:
-
-    Signed NDA for ALL information on the system.
-    Proper clearance for SOME information on the system.
-    Formal access approval for SOME information on the system.
-    A valid need to know for SOME information on the system.
-
-All users can access SOME data, based on their need to know, clearance and formal access approval 
 ****
 **Research x.509 certificiates**
 - Do they use DSS for authentication?
@@ -305,21 +194,12 @@ For example a,b,c,g,n,ac
 
 **review rootkits**
 
-**Define the following database terms**
 
-- Atomicity
-- Isolation
-- Consistency
-- Durability
 
 
 **Kerberos**
 
-**TCP Handshake**
- 
-1. SYN - Client1 -> Client2
-1. SYN-ACK - Client2 -> client 1
-1. ACk - Client 1 -> client 2
+
 
 **What uses start and stop flags in transmission**
 
@@ -327,13 +207,7 @@ Synchronous communications uses start and stop flags in communications
 
 **Review alarm sensor types for physical security**
 
-**Why destroy SSDs to prevent data leaks?**
 
-Solid State Drives (SSD): These use flash memory to store data and data is not overwritten. It is way faster than HDD, as the data is accessed directly via a flash translation layer, thus reducing time for head movement. Because of this, when it comes to data remanence, simple overwriting won’t work with SSD. the following techniques should be used:
-
-    Built in sanitization commands
-    Crypto-erase
-    Sanitization
 
 
 **What are the different actions you can take with risk  minamize it?**
@@ -342,9 +216,7 @@ Solid State Drives (SSD): These use flash memory to store data and data is not o
 
 At its core, identity proofing is an approach for verifying and authenticating the identity of individuals accessing an application. It uses knowledge-based user attributes, document verification, wallet-based factors, ID verification, and national identity systems to confirm that a person logging in is who they say they are. This allows for users to self-verify, making for a secure authentication process that doesn’t compromise user experience.
 
-**Difference between Due dilligence and due care**
 
-See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-diligence
 
 **What is it called when you capture traffic and then replay it against a sight for performance testing**
 
@@ -418,7 +290,7 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 
 **Attacks against RSA**
-**Obfustication techniques**
+
 ****
 ****
 ****

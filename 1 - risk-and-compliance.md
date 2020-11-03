@@ -170,15 +170,39 @@ This is a huge issue!
 ![Piracy numbers](https://gyazo.com/aa8f441b52a8192d68184a7b717d3b0f.png)
 
 
-    
+    **Review all SCAP components**
+
+Starting with SCAP version 1.0 (November, 2009)
+* CVE - Common Vulnerabilities and Exposures - http://cve.mitre.org/ 
+* CCE -  Common Configuration Enumeration (CCE) - http://cce.mitre.org/
+* CPE - Common Platform Enumeration - http://scap.nist.gov/specifications/cpe/  
+* CVSS - Common Vulnerability Scoring System - http://www.first.org/cvss/ 
+* XCCDF - Extensible Configuration Checklist Description Format - http://scap.nist.gov/specifications/xccdf/
+* OVAL - Open Vulnerability and Assessment Language - [http://oval.mitre.org/ (OVAL)]
+Starting with SCAP version 1.1 (February, 2011)
+* OCIL - Open Checklist Interactive Language - http://scap.nist.gov/specifications/ocil/  
+Starting with SCAP version 1.2 (September, 2011)
+* AID - Asset Identification - [http://scap.nist.gov/specifications/ai/ 
+* ARF - Asset Reporting Format - http://scap.nist.gov/specifications/arf/ 
+* CCSS - Common Configuration Scoring System - http://csrc.nist.gov/publications/PubsNISTIRs.html#NIST-IR-7502 
+* TMSAD - Trust Model for Security Automation Data - http://scap.nist.gov/specifications/tmsad/ 
+Starting with SCAP version 1.3 (February, 2018)
+* SWID - Software Identification - https://csrc.nist.gov/projects/Software-Identification-SWID 
+
 
 **How does CVSS scoring work in detail?**
 
 - Open framework for communicating the characteristics and severity software vulnerabilities
 
 
-![PASTA](https://gyazo.com/2c81f9a026cad844b856b0b5f77cedeb.png)
+![CVSS](https://gyazo.com/2c81f9a026cad844b856b0b5f77cedeb.png)
 
 - Base - Consistent over time and across environments (Affects all the same way)
 - Temporal - characteristics that change over time
 - Environmental - Unique to a users envrioment 
+
+
+
+**Difference between Due dilligence and due care**
+
+See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-diligence

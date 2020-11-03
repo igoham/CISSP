@@ -120,7 +120,10 @@ In telecommunications, a protocol data unit (PDU) is a single unit of informatio
     The Layer 2: data link layer PDU is the frame.
     The Layer 1: physical layer PDU is the bit or, more generally, symbol.
     
-    
+
+Each datagram has two components, a header and a data payload. The header contains all the information sufficient for routing from the originating equipment to the destination without relying on prior exchanges between the equipment and the network. Headers may include source and destination addresses as well as a type field. The payload is the data to be transported. This process of nesting data payloads in a tagged header is called encapsulation.
+![OSI to TCP IP models](https://gyazo.com/9823118ba732fe0c677cbc3ac948159f.png)
+ 
 #### DARPA IP Suite
     The transport layer PDU is the TCP segment for TCP, and the datagram for UDP.
     The Internet layer PDU is the packet.
@@ -132,3 +135,32 @@ In telecommunications, a protocol data unit (PDU) is a single unit of informatio
 
 In IPv6, the IPv6 address reserved for loopback use is 0000:0000:0000:0000:0000:0000:0000:0001/128. 
 This loopback address is so lengthy and can be further simplified as ::1/128. Click the below links to learn more about how to simplify and shorten an IPv6 address.
+
+
+
+**TCP Handshake**
+ 
+1. SYN - Client1 -> Client2
+1. SYN-ACK - Client2 -> client 1
+1. ACk - Client 1 -> client 2
+
+**What layer does DNS and DHCP operate at?**
+
+- DNS is an Application layer protocol
+- DHCP works on the Data-link layer. This means that when a device needs an IP address they can only request one on the same network that its present on
+
+
+
+**What are the differentces bettwen CSMA/CA and CSMA/CD**
+
+*CSMA/CA*
+
+CSMA/CA stands for Carrier Sense Multiple Access/ Collision Avoidance. It is a network protocol for transmission. It operates in the Medium Access Control Layer. This protocol is effective before the collision.
+
+*CSMA/CD*
+
+CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is also a network protocol for transmission and operates in the Medium Access Control Layer. In this protocol, each station senses the collision by broadcast sensing. In case of collision, the transmission is stopped and they send a jam signal and then wait for a random time context before retransmission.
+![MULTI TASKING](https://gyazo.com/8f5b4455c396c553b89475a5465ec1b5.png)
+
+**OSI to TCP/IP Darpa Model**
+![OSI to TCP IP models](https://gyazo.com/ab0362ff7c33f7648122d4bc0fdd0f94.png)
