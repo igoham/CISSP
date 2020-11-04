@@ -98,8 +98,12 @@ Two major types of covert channel
     - All updates to the database are consistent with the rules of the database
 - Durability
     - Completed transactions will not be lost
-
-
+- Cardinality 
+    - is the number of rows in a table.
+- Degree
+    - is the number of columns in a table
+    
+    
 **What is an object oriented database?**
 
 An object-oriented database (OODBMS) or object database management system (ODBMS) is a database that is based on object-oriented programming (OOP). The data is represented and stored in the form of objects. OODBMS are also called object databases or object-oriented database management systems.
@@ -109,3 +113,18 @@ ZODB *(ZOPE DB)* for Python is an example of a OODBMS
 
 **Data normalization Processes**
 ![Data Normalization](https://gyazo.com/b8f7f3d1d4e39c120404b9fba409340e.png)
+
+
+
+**Define the following database backup terms**
+- Remote journalling
+    - Remote Journaling is the process of recording the product of a computer application in a distant data storage environment, concurrently with the normal recording of the product in the primary environment.
+- Electronic vaulting
+    - The term electronic vaulting is used to describe the transfer of data by electronic means to a backup site, as opposed to the physical shipment of backup tapes or disks. 
+****
+
+
+
+**What are candidate keys**
+
+A candidate key is a combination of attributes that uniquely identify a database record without referring to any other data. Each table may have one or more candidate. One of these candidate keys is selected as the table primary key. A table contains only one primary key, but it can contain several candidate keys. If a candidate key is composed of two or more columns, then it's called a composite key. 

@@ -70,7 +70,12 @@ rather than the whole building because of the higher cost of these types of syst
 water to be released in a shorter period. Because the water being released is in such
 large volumes, these systems are usually not used in data processing environments.
 
-
+## Types of fire extinguishers
+	 Wet Pipes - caries water the entire time until the water is relased
+	 Dry Pipes - pipes are empty and filled with presurized air until the pipes require water
+	 Preaction systems - Filled with air until the presure changes, it then fills with water. Once the head melts it releases the water. Used in computing envrioments to allow more time to put out small fires and save electrical equpitment
+	 Deluge - large basin of water that is dumped on the source of the fire to attempt to cool it down
+     Misting - can be used while devices are still one
 
 
 ## Computer Related Power topics

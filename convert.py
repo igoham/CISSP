@@ -1,175 +1,51 @@
 test = """
-• Security should be addressed in each phase of system development. It should not be
-addressed only at the end of development because of the added cost, time, and effort
-and the lack of functionality.
-• The attack surface is the collection of possible entry points for an attacker. The
-reduction of this surface reduces the possible ways that an attacker can exploit a
-system.
-• Threat modeling is a systematic approach used to understand how different threats
-could be realized and how a successful compromise could take place.
-• Computer-aided software engineering refers to any type of software that allows for
-the automated development of software, which can come in the form of program
-editors, debuggers, code analyzers, version-control mechanisms, and more. The goals
-are to increase development speed and productivity and reduce errors.
-• Various levels of testing should be carried out during development: unit (testing
-individual components), integration (verifying components work together in the
-production environment), acceptance (ensuring code meets customer requirements),
-regression (testing after changes take place), static analysis (reviewing programming
-code), and dynamic analysis (reviewing code during execution).
-• Fuzzing is the act of sending random data to the target program in order to trigger
-failures.
-• Zero-day vulnerabilities are vulnerabilities that do not currently have a resolution or
-solution.
-• The ISO/IEC 27034 standard covers the following items: application security
-overview and concepts, organization normative framework, application security
-management process, protocols and application security control data structure, case
-studies, and application security assurance prediction.
-• The Open Web Application Security Project (OWASP) is an organization dedicated
-to helping the industry develop more secure software.
-• An integrated product team (IPT) is a multidisciplinary development team with
-representatives from many or all the stakeholder populations.
-• The CMMI model uses five maturity levels designated by the numbers 1 through 5.
-Each level represents the maturity level of the process quality and optimization. The
-1423
-levels are organized as follows: 1 = Initial, 2 = Repeatable, 3 = Defined, 4 = Managed,
-5 = Optimizing.
-• CMMI (Capability Maturity Model Integration) is a process improvement approach
-that provides organizations with the essential elements of effective processes, which
-will improve their performance.
-• Change management is a systematic approach to deliberately regulating the changing
-nature of projects. Change control, which is a subpart of change management, deals
-with controlling specific changes to a system.
-• There are several SDLC methodologies: Waterfall (sequential approach that requires
-each phase to complete before the next one can begin), V-shaped (emphasizes
-verification and validation at each phase), Prototyping (creating a sample of the code
-for proof-of-concept purposes), Incremental (multiple development cycles are carried
-out on a piece of software throughout its development stages), Spiral (iterative
-approach that emphases risk analysis per iteration), Rapid Application Development
-(combines prototyping and iterative development procedures with the goal of
-accelerating the software development process), and Agile (iterative and incremental
-development processes that encourage team-based collaboration, where flexibility and
-adaptability are used instead of a strict process structure).
-• Software configuration management (SCM) is the task of tracking and controlling
-changes in the software through the use of authentication, revision control, the
-establishment of baselines, and auditing. It has the purpose of maintaining software
-integrity and traceability throughout the software development life cycle.
-• Programming languages have gone through evolutionary processes. Generation one is
-machine language (binary format). Generation two is assembly language (which is
-translated by an assembler into machine code). Generation three is high-level
-language (which provides a level of abstraction). Generation four is a very high-level
-language (which provides more programming abstraction). Generation five is natural
-language (which is translated using artificial intelligence).
-• Data modeling is a process used to define and analyze data requirements needed to
-support the business processes within the scope of corresponding systems and
-software applications.
-• Object-oriented programming provides modularity, reusability, and more granular
-control within the programs themselves compared to classical programming
-languages.
-• Objects are members, or instances, of classes. The classes dictate the objects’ data
-types, structure, and acceptable actions.
-• In OOP, objects communicate with each other through messages, and a method is
-functionality that an object can carry out. Objects can communicate properly because
-they use standard interfaces.
-• Polymorphism is when different objects are given the same input and react
-differently.
-1424
-• Data and operations internal to objects are hidden from other objects, which is
-referred to as data hiding. Each object encapsulates its data and processes.
-• Object-oriented design represents a real-world problem and modularizes the problem
-into cooperating objects that work together to solve the problem.
-• If an object does not require much interaction with other modules, it has low
-coupling.
-• The best programming design enables objects to be as independent and as modular as
-possible; therefore, the higher the cohesion and the lower the coupling, the better.
-• An object request broker (ORB) manages communications between objects and
-enables them to interact in a heterogeneous and distributed environment.
-• Common Object Request Broker Architecture (CORBA) provides a standardized
-way for objects within different applications, platforms, and environments to
-communicate. It accomplishes this by providing standards for interfaces between
-objects.
-• Component Object Model (COM) provides an architecture for components to
-interact on a local system. Distributed COM (DCOM) uses the same interfaces as
-COM, but enables components to interact over a distributed, or networked,
-environment.
-• Open Database Connectivity (ODBC) enables several different applications to
-communicate with several different types of databases by calling the required driver
-and passing data through that driver.
-• Object linking and embedding (OLE) enables a program to call another program
-(linking) and permits a piece of data to be inserted inside another program or
-document (embedding).
-• Service-oriented architecture (SOA) provides standardized access to the most needed
-services to many different applications at one time. Service interactions are selfcontained and loosely coupled so that each interaction is independent of any other
-interaction.
-• Java security employs a sandbox so the applet is restricted from accessing the user’s
-hard drive or system resources. Programmers have figured out how to write applets
-that escape the sandbox.
-• SOAP allows programs created with different programming languages and running
-on different operating systems to interact without compatibility issues.
-• There are three main types of cross-site scripting (XSS) attacks: nonpersistent XSS
-(exploiting the lack of proper input or output validation on dynamic websites),
-persistent XSS (attacker loads malicious code on a server that attacks visiting
-browsers), and DOM (attacker uses the DOM environment to modify the original
-client-side JavaScript).
-• A database management system (DBMS) is the software that controls the access
-restrictions, data integrity, redundancy, and the different types of manipulation
-available for a database.
-1425
-• A database primary key is how a specific row is located from other parts of the
-database in a relational database.
-• A view is an access control mechanism used in databases to ensure that only
-authorized subjects can access sensitive information.
-• A relational database uses two-dimensional tables with rows (tuples) and columns
-(attributes).
-• A hierarchical database uses a tree-like structure to define relationships between data
-elements, using a parent/child relationship.
-• Most databases have a data definition language (DDL), a data manipulation language
-(DML), a query language (QL), and a report generator.
-• A data dictionary is a central repository that describes the data elements within a
-database and their relationships.
-• Database integrity is provided by concurrency mechanisms. One concurrency control
-is locking, which prevents users from accessing and modifying data being used by
-someone else.
-• Entity integrity makes sure that a row, or tuple, is uniquely identified by a primary
-key, and referential integrity ensures that every foreign key refers to an existing
-primary key.
-• A rollback cancels changes and returns the database to its previous state. This takes
-place if there is a problem during a transaction.
-• A commit statement saves all changes to the database.
-• A checkpoint is used if there is a system failure or problem during a transaction. The
-user is then returned to the state of the last checkpoint.
-• Aggregation can happen if a user does not have access to a group of elements, but has
-access to some of the individual elements within the group. Aggregation happens if
-the user combines the information of these individual elements and figures out the
-information of the group of data elements, which is at a higher sensitivity level.
-• Inference is the capability to derive information that is not explicitly available.
-• Common attempts to prevent inference attacks are partitioning the database, cell
-suppression, and adding noise to the database.
-• Polyinstantiation is the process of allowing a table to have multiple rows with the
-same primary key. The different instances can be distinguished by their security levels
-or classifications.
-• Data warehousing combines data from multiple databases and data sources.
-• Data mining is the process of searching, filtering, and associating data held within a
-data warehouse to provide more useful information to users.
-• Data-mining tools produce metadata, which can contain previously unseen
-relationships and patterns.
-• A virus is an application that requires a host application for replication.
-• Macro viruses are common because the languages used to develop macros are easy to
-1426
-use and they infect Microsoft Office products, which are everywhere.
-• A polymorphic virus tries to escape detection by making copies of itself and
-modifying the code and attributes of those copies.
-• A worm does not require a host application to replicate.
-• A logic bomb executes a program when a predefined event takes place, or a date and
-time are met.
-• A Trojan horse is a program that performs useful functionality apparent to the user
-and malicious functionally without the user knowing it.
-• Botnets are networks of bots that are controlled by C&C servers and bot herders.
-• Antimalware software is most effective when it is installed in every entry and end
-point and covered by a policy that delineates user training as well as software
-configuration and updating.
-• Assessing the security of acquired software, in addition to internal or third-party tests,
-requires that we assess the reliability and maturity of the vendor.
-"""
+• What does does of the follow laws aim to do?
+	• Sarbanes-Oxley act of 2002 AKA SOX - 
+		○ Made it illeagal for a corporation to 'cook its books by putting teeth in the laws. It could send executives to jail if it was discovered that their company was submitting fraudulent accounting findings to the US SEC. SOX is based upon the COSO model, so for a corporation to be compliant with SOX it has to follow the COSO model.
+	• Computer Fraud and bause acted - CFAA
+		○ Enacted in 1984 
+	• Computer security act of 1987 - 
+		○  Mandate federnal agencies must security their computer systems. Must provide plans to NSA for review.  Some verbage around awareness training as well.
+	• Federal information security mangement act of 2002 FISMA
+		○ Ensure ORG wide Risk Management practices are in place
+		○ Documentation of controls such as Authorization / authentication controls
+		○ Protect information during processing, storage and in transit
+	• Federal Privacy act of 1974 - 
+		○ The Privacy Act dictates that an agency cannot disclose this information without written permission from the individual. However, like most government acts, legislation, and creeds, there is a list of exceptions. So what does all of this dry legal mumbo-jumbo mean? Basically, agencies can gather information about individuals, but it must be relevant and necessary to the agency’s official functions. In addition, an agency cannot share people’s private information. If it does, private citizens have the right to sue that agency to protect their privacy. The Privacy Act applies to the computer world because this information is usually held by one type of computer or another. If an agency’s computer holds an individual’s confidential information, the agency must provide the necessary security mechanisms to ensure that information cannot be compromised or copied in an unauthorized way.
+	• Department of Veterans Affairs Information Security Protection Act - 
+		○ This law has an extremely narrow scope (it only applies to the VA), but is representative of efforts to bolt on security after a breach. The VA was already required to comply with FISMA, but the fact that it failed to do so received a lot of attention in the wake of the theft of the laptop. Rather than simply enforcing FISMA, the federal government created a new law that requires the VA to implement additional controls and to report its compliance to Congress.
+	• Health Insurance Portability and Accountability Act (HIPAA)
+		○ HIPAA mandates steep federal penalties for noncompliance. If medical information is used in a way that violates the privacy standards dictated by HIPAA, even by mistake, monetary penalties of $100 per violation are enforced, up to $1,500,000 per year, per standard. If protected health information is obtained or disclosed knowingly, the fines can be as much as $50,000 and one year in prison. If the information is obtained or disclosed under false pretenses, the cost can go up to $250,000 with 10 years in prison if there is intent to sell or use the information for commercial advantage, personal gain, or malicious harm. This is serious business. 
+	• Health Information Technology for Economic and Clinical Health (HITECH) Act
+		○ y. Subtitle D of the HITECH Act addresses the privacy and security concerns associated with the electronic transmission of health information, in part through several provisions that strengthen the civil and criminal enforcement of the HIPAA rules. Section 13410(d) of the HITECH Act revised Section 1176(a) of the Social Security Act by establishing 
+			• • Four categories of violations that reflect increasing levels of culpability • 
+			• Four corresponding tiers of penalty amounts that significantly increase the minimum penalty amount for each violation • 
+			• A maximum penalty amount of $1.5 million for all violations of an identical provision 
+	• Gramm-Leach-Bliley Act (GLBA)
+		○ The act dictates that the board of directors is responsible for many of the security issues within a financial institution, that risk management must be implemented, that all employees need to be trained on information security issues, and that implemented security measures must be fully tested. It also requires these institutions to have a written security policy in place. Major components put into place to govern the collection, disclosure, and protection of consumers’ nonpublic personal information, or PII, include 
+			• • Financial Privacy Rule Provide each consumer with a privacy notice that explains the data collected about the consumer, where that data is shared, how that data is used, and how that data is protected. The notice must also identify the consumer’s right to opt out of the data being shared with unaffiliated parties pursuant to the provisions of the Fair Credit Reporting Act. • 
+			• Safeguards Rule Develop a written information security plan that describes how the company is prepared to, and plans to continue to, protect clients’ nonpublic personal 131 information. • 
+			• Pretexting Protection Implement safeguards against pretexting (social engineering). 
+	• Personal Information Protection and Electronic Documents Act
+		○ The law was enacted to help and promote consumer trust and facilitate electronic commerce. It was also put into place to reassure other countries that Canadian businesses would protect privacy data so that cross-border transactions and business activities could take place in a more assured manner. Some of the requirements the law lays out for organizations are as follows: 
+			• • Obtain consent when they collect, use, or disclose their personal information • 
+			• Collect information by fair and lawful means • 
+			• Have personal information policies that are clear, understandable, and readily available
+	• Payment Card Industry Data Security Standard (PCI DSS)
+		○ Made up of 12 of the following requirements
+			• Install and maintain a firewall configuration to protect cardholder data. 
+			• 2. Do not use vendor-supplied defaults for system passwords and other security parameters. 
+			• 3. Protect stored cardholder data. 
+			• 4. Encrypt transmission of cardholder data across open, public networks.
+			•  5. Use and regularly update anti-virus software or programs. 
+			• 6. Develop and maintain secure systems and applications. 
+			• 7. Restrict access to cardholder data by business need to know. 
+			• 8. Assign a unique ID to each person with computer access. 133 
+			• 9. Restrict physical access to cardholder data. 
+			• 10. Track and monitor all access to network resources and cardholder data. 
+			• 11. Regularly test security systems and processes. 
+			• 12. Maintain a policy that addresses information security for employees and contractors."""
 
 test = test.replace("•", "-")
+test = test.replace("○", "-")
 x=1

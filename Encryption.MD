@@ -207,3 +207,7 @@ he MITM is a generic attack which weakens the security benefits of using multipl
 The MITM attack attempts to find the keys by using both the range (ciphertext) and domain (plaintext) of the composition of several functions (or block ciphers) such that the forward mapping through the first functions is the same as the backward mapping (inverse image) through the last functions, quite literally meeting in the middle of the composed function. For example, although Double DES encrypts the data with two different 56-bit keys, Double DES can be broken with 257 encryption and decryption operations. 
 
 
+### Digital Signatures
+
+- The last step of certificate creation if for the CA to sign the cert with its own private key.
+- When the recipient receives the certificate they can validate it by using the CA's public ket

@@ -196,11 +196,6 @@ For example a,b,c,g,n,ac
 
 
 
-
-**Kerberos**
-
-
-
 **What uses start and stop flags in transmission**
 
 Synchronous communications uses start and stop flags in communications  
@@ -231,6 +226,8 @@ At its core, identity proofing is an approach for verifying and authenticating t
 **E discovery reference model** - 1
 
 **Ethernet Cable speeds** - 4
+- Cable speeds
+- Max cable runs in M
 
 **What is a smurf attack vs fragle vs teardrop vs land attack** - 5
 
@@ -278,21 +275,27 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 **Review GRE Genetric routing encapsulation headers**
 
-**GDPR**
-- Does each member state have to create their own protetion authority?      
-    - I Assume NO!
-
 **Difference between Async and Synchronous dynamic password tokens**
 
 **Enticement vs entrapment**
 
+**Common code review techniues?**
+**Need to review the incident response phases**
+**Review the following pen test types**
+- White / Crystal bic
+- Blackbox
+- gray box
+**How to test coverate computed**
+**Research Cali online priv protection act**
 
-
+****
+****
 
 **Attacks against RSA**
 
-****
-****
-****
-****
-****
+**Research KRI**
+
+
+**Research the process scheduler and its modes**
+- What modes can a proces be placed in
+

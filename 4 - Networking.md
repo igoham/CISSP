@@ -164,3 +164,9 @@ CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is als
 
 **OSI to TCP/IP Darpa Model**
 ![OSI to TCP IP models](https://gyazo.com/ab0362ff7c33f7648122d4bc0fdd0f94.png)
+
+
+Network Cable Lengths
+
+![OSI to TCP IP models](https://gyazo.com/544e2b76808dd3a08ad8e8abe9de9fa5.png)
+![OSI to TCP IP models](https://gyazo.com/695ae4ad8f348a97397a40925927cc45.png)
