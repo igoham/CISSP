@@ -288,13 +288,14 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 **How to test coverate computed**
 **Research Cali online priv protection act**
 
-****
-****
+**Looks up FTP ports**
+**OWASP top 10 2020**
 
 **Attacks against RSA**
 
 **Research KRI**
-
+**Research memory types**
+**Review Broadcast and collision domains**
 
 **Research the process scheduler and its modes**
 - What modes can a proces be placed in

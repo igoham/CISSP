@@ -261,3 +261,19 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 			- 10. Track and monitor all access to network resources and cardholder data. 
 			- 11. Regularly test security systems and processes. 
 			- 12. Maintain a policy that addresses information security for employees and contractors.
+			
+			
+			
+## Change Management
+
+The change management process includes six steps:
+- Request the change
+- Review the change
+- Approve / Reject the change
+- Test the change
+- Schedule and implement the change
+- Document the change
+
+The last phase, document the change results 
+
+

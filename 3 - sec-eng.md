@@ -225,7 +225,7 @@ appropriateness of a specific system
     - FRR
     = Falsely rejected a VALID user
 - A type 2 error is a false negative
-    - Bor Biometrics this si when the requestor is falselt ACCEPTED
+    - Bor Biometrics this si when the requester is falsely ACCEPTED
     - FAR
     - Falsely accepted an INVALID user
     

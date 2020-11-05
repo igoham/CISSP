@@ -6,6 +6,32 @@
     - PPTP, l2f, and IPSEC are all only IP protocols
 
 
+## WAN technologies
+
+### Packet switch technologies
+#### x.25
+
+An old packet switched wan technology that has alrgeley been replaced by frame replay. Unlike greame replay x.25 provides
+error correction but doing so comes at expense of latency.
+
+
+
+## Circuit switched technologies
+Circuits are dedicated lines. Any time you think of a circit switched technology you have a direct connection to the ISP backbone.
+Other examples of circuit switched technologies include ISDN, POTS and PPP
+
+#### T lines - T1/2/3/4/5
+T carrier lines are are circuit switched WAN techn that require a dedicated circut. This technology would be used to connect the 
+customer to the the ISP. Cir
+
+### Cell Switching Technologies
+#### ATM
+
+ATM is a **cell-switched** wan technology. Cell switching is similar to packet switching but instead of using varaible length packaged it uses fixed length cells.
+ATM uses cells that are 53 bytes long. As a result ATM is mcuh more predictable than packet switched technologies.
+
+
+
 *Network classes and maximum hosts per class network**
 
 **802.11 table MUST be known**
