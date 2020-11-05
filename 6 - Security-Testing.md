@@ -16,8 +16,17 @@ Verifies the application does what it should. For example the login page actuall
 
 Is looking for noraml and common errors. For example the login page does not log you in if you enter the wrong password.
 
-****
-****
+**Soc1**
+
+Financial reports
+
+**Soc2**
+
+Security, Availability, confidentiality, Process integrity and privacy
+
+Type 1 - Looks at the the design in a specific point in time
+
+Type 2 - Verifies the design and the operating effectiveness of the design over a period of time.
 ****
 ****
 ****
