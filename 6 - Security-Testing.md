@@ -22,13 +22,25 @@ Financial reports
 
 **Soc2**
 
+Soc 2 type 2 is the most valued report
 Security, Availability, confidentiality, Process integrity and privacy
+
+
 
 Type 1 - Looks at the the design in a specific point in time
 
 Type 2 - Verifies the design and the operating effectiveness of the design over a period of time.
-****
-****
+
+
+**Soc 3**
+
+Summarize and sanatied verion for public distribution 
+
+
+
+**How auditing is supported**
+The executive management team provides funding and support. An audit committee is  composed of members of the board and senior stake holders. The com
+
 ****
 ****
 ****

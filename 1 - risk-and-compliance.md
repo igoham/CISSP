@@ -219,9 +219,11 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 	- Sarbanes-Oxley act of 2002 AKA SOX - 
 		- Made it illeagal for a corporation to 'cook its books by putting teeth in the laws. It could send executives to jail if it was discovered that their company was submitting fraudulent accounting findings to the US SEC. SOX is based upon the COSO model, so for a corporation to be compliant with SOX it has to follow the COSO model.
 	- Computer Fraud and bause acted - CFAA
-		- Enacted in 1984 
+		- Enacted in 1984
+		- Criminalized the act of connecting to a computer in an unauthorized manner. 
 	- Computer security act of 1987 - 
-		-  Mandate federnal agencies must security their computer systems. Must provide plans to NSA for review.  Some verbage around awareness training as well.
+		- Mandate federnal agencies must security their computer systems. Must provide plans to NSA for review.  Some verbage around awareness training as well.
+		- Repealed and replaced by FISMA 2002
 	- Federal information security mangement act of 2002 FISMA
 		- Ensure ORG wide Risk Management practices are in place
 		- Documentation of controls such as Authorization / authentication controls
