@@ -287,12 +287,13 @@ At its core, identity proofing is an approach for verifying and authenticating t
 
 **ITSM vs ITIL**
 
+**Cyber Kill CHains**
+
+![](https://gyazo.com/4f283dfc3ad6c79109f8cfecec8ddd52.png)
+
 **Review calculating ARO for and EF values for 200 - 400 year events**
 
 
-**EAP vs PEAP vs EAP-TLS**
-
-EAP expected phyicall security to be in place and thus did not require encryption.
 
 **What is the difference between transpotion and subtitution**
 

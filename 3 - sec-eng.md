@@ -389,3 +389,10 @@ Solid State Drives (SSD): These use flash memory to store data and data is not o
 - Incremental backup – everything that has changed since the last full backup is backed up. The archive bit is reset.
 - Differential backup – all files that have been modified since the last full backup are backed up. The archive bit is not reset. A full weekly backup with differential daily backups is preferred/faster restore than the full and incremental as in an incremental restore, all incremental backups need to be restored.
 - Copy backup – same as a full backup but archive bit is not reset. This form is typically used for unscheduled backups and is used to prevent interfering with the regularly-scheduled daily backups.
+
+
+**EAP vs PEAP vs EAP-TLS**
+
+- EAP sends unencrypted credentials. EAP expected physically security to be in place and thus did not require encryption.
+- PEAP - Protected EAP
+- EAP-TLS - Sends a certificate to the server after a one time enrollment.
