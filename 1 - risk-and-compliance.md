@@ -1,4 +1,6 @@
 
+
+
 ## Security and Risk Frameworks
 
 - NIST SP 800-53 - Provides a list of privacy and security controls. These controls map to the required security level identified in NIST SP 800-37.
@@ -143,6 +145,13 @@ Each member state has their own Data Protection Authority! https://ec.europa.eu/
     - One of the more detailed and technical rights afforded under the GDPR, among other things, entitles individuals either opt out of automated decision-making processes, challenge decisions, and/or have automated decisions reviewed by a human. More about this right can be found here.
 
 
+
+**Define the following Definitions**
+- Security Policy - Mandatory - EX. Passwords MUST be changed every 90 days
+- Standards - Mandatory - Admins must use Windows server 2020 R2 for the base OS
+- Baselines - Discretionary -EX. the specific settings for windows servers to be configured to match the CIS benchmarks
+- Guidelines(suggestions) - Discretionary - EX. To create a strong password use the first letter of every work in a sentense
+- Procedures - - Mandatory - 
 
 
 **Define the following terms**

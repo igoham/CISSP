@@ -125,12 +125,6 @@ What are the relevant US and EU laws around privacy
 
 
 
-**Define the following Definitions**
-- Security Policy
-- Standards
-- Baselines
-- Guidelines
-- Procedures
 
 **What are the core differences between BCP and DRP**
 
@@ -295,7 +289,9 @@ response team time for a proper investigation and determination of the incidentâ
 cause.
 - Reporting
 - Recovery
-- Lessons Learned
+    - Fix the problem
+- Remediation / Lessons Learned
+    - Fix the inital problem that allowed ther breach to occur
 
 
 **Review the following pen test types**
