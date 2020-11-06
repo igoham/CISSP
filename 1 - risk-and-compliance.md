@@ -290,3 +290,18 @@ The change management process includes six steps:
 The last phase, document the change results 
 
 
+**Research KRI**
+
+Key Risk Indicators (KRIs), as the name suggests, measure risk. KRIs are used by organisations to determine how much risk they are exposed to or how risky a particular venture or activity is.
+
+KRIs are a way to quantify and monitor the biggest risks an organisation (or activity) is exposed to. By measuring the risks and their potential impact on business performance, organisations are able to create early warning systems that allow them to monitor, manage and mitigate key risks. 
+
+Effective KRIs help to:
+
+    Identify the biggest risks.
+    Quantify those risks and their impact.
+    Put risks into perspective by providing comparisons and benchmarks.
+    Enable regular risk reporting and risk monitoring.
+    Alert key people in advance of risks unfolding.
+    Help people to manage and mitigate risks.
+

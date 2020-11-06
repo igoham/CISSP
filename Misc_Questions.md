@@ -215,6 +215,14 @@ Not focused on security nativley but there is DevSecOps.
 https://gyazo.com/fe37e474c6bfada57be31d5f07a782b6
 
 - Spiral Methodology
+    - Determine objectives
+    - Identify and resolve risks
+    - Development and tests
+    - Plan the next iteration
+
+This is an iterative Risk based model in which we move closer and closer towards our final goal of release. 
+https://gyazo.com/e75bff5d41e54bfb8904df5e438bae94
+
 - Prototyping
 - Incremental Methodology
 
@@ -346,48 +354,5 @@ cause.
 22 - ssh
 23 - telnet
 
-**OWASP top 10 2020**
-
-**Attacks against RSA**
-
-**Research KRI**
-
-Key Risk Indicators (KRIs), as the name suggests, measure risk. KRIs are used by organisations to determine how much risk they are exposed to or how risky a particular venture or activity is.
-
-KRIs are a way to quantify and monitor the biggest risks an organisation (or activity) is exposed to. By measuring the risks and their potential impact on business performance, organisations are able to create early warning systems that allow them to monitor, manage and mitigate key risks. 
-
-Effective KRIs help to:
-
-    Identify the biggest risks.
-    Quantify those risks and their impact.
-    Put risks into perspective by providing comparisons and benchmarks.
-    Enable regular risk reporting and risk monitoring.
-    Alert key people in advance of risks unfolding.
-    Help people to manage and mitigate risks.
-
-
-
-**Review Broadcast and collision domains**
-
-Definitions:
-- A broadcast domain is a group of nodes that can reach each other via broadcast. 
-- A collision domain is when devices electrical signals can interfere with one another on the wire
-
-### Hub
-
-Since hubes are very dumb they simply extend networks / collision domains. 
-- Extends collision domains
-
-### Switches
-
-Switches on the other hand are smart and generally 
-support 1-1 conversations. As a result it knows when to expect frames ( think pdu ) and can avoid collisions.
-This is because a switch has an arp table so it knows exactly ehere each device is.  
-- Does NOT extend collision domains
-- Extend broadcast domains to allow each device to talk to any device on the same switched network
-
-### Routers
-- Separates collision domains
-- Separates broadcast domains
 
 

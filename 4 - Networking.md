@@ -248,6 +248,30 @@ CSMA/CA stands for Carrier Sense Multiple Access/ Collision Avoidance. It is a n
 CSMA/CD stands for Carrier Sense Multiple Access/ Collision Detection. It is also a network protocol for transmission and operates in the Medium Access Control Layer. In this protocol, each station senses the collision by broadcast sensing. In case of collision, the transmission is stopped and they send a jam signal and then wait for a random time context before retransmission.
 ![MULTI TASKING](https://gyazo.com/8f5b4455c396c553b89475a5465ec1b5.png)
 
+**Review Broadcast and collision domains**
+
+Definitions:
+- A broadcast domain is a group of nodes that can reach each other via broadcast. 
+- A collision domain is when devices electrical signals can interfere with one another on the wire
+
+### Hub
+
+Since hubes are very dumb they simply extend networks / collision domains. 
+- Extends collision domains
+
+### Switches
+
+Switches on the other hand are smart and generally 
+support 1-1 conversations. As a result it knows when to expect frames ( think pdu ) and can avoid collisions.
+This is because a switch has an arp table so it knows exactly ehere each device is.  
+- Does NOT extend collision domains
+- Extend broadcast domains to allow each device to talk to any device on the same switched network
+
+### Routers
+- Separates collision domains
+- Separates broadcast domains
+
+
 **OSI to TCP/IP Darpa Model**
 ![OSI to TCP IP models](https://gyazo.com/ab0362ff7c33f7648122d4bc0fdd0f94.png)
 
