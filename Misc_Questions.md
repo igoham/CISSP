@@ -279,16 +279,50 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 
 **Enticement vs entrapment**
 
+
 **Common code review techniues?**
+
+
 **Need to review the incident response phases**
+- Detection 
+- Response
+    - assemble the team 
+    - Analysis
+- Mitigation
+    - The goal of mitigation is to prevent or reduce any further damage from this incident so
+that you can begin to recover and remediate. A proper mitigation strategy buys the incident
+response team time for a proper investigation and determination of the incident’s root
+cause.
+- Reporting
+- Recovery
+- Lessons Learned
+
+
 **Review the following pen test types**
 - White / Crystal bic
 - Blackbox
 - gray box
+
 **How to test coverate computed**
+
+
+    (A) the total lines of code in the piece of software you are testing, and
+    (B) the number of lines of code all test cases currently execute, and
+    Find (B divided by A) multiplied by 100 – this will be your test coverage %.
+
+
+- Formula = (A * B) * 100 = coverage%
+    - (650 / 1000) * 100 = 65% 
+
+
 **Research Cali online priv protection act**
 
 **Looks up FTP ports**
+20 - data plane
+21 - control plane
+22 - ssh
+23 - telnet
+
 **OWASP top 10 2020**
 
 **Attacks against RSA**
@@ -309,9 +343,28 @@ Effective KRIs help to:
     Help people to manage and mitigate risks.
 
 
-**Research memory types**
+
 **Review Broadcast and collision domains**
 
-**Research the process scheduler and its modes**
-- What modes can a proces be placed in
+Definitions:
+- A broadcast domain is a group of nodes that can reach each other via broadcast. 
+- A collision domain is when devices electrical signals can interfere with one another on the wire
+
+### Hub
+
+Since hubes are very dumb they simply extend networks / collision domains. 
+- Extends collision domains
+
+### Switches
+
+Switches on the other hand are smart and generally 
+support 1-1 conversations. As a result it knows when to expect frames ( think pdu ) and can avoid collisions.
+This is because a switch has an arp table so it knows exactly ehere each device is.  
+- Does NOT extend collision domains
+- Extend broadcast domains to allow each device to talk to any device on the same switched network
+
+### Routers
+- Separates collision domains
+- Separates broadcast domains
+
 

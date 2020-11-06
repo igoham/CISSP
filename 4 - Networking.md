@@ -256,3 +256,8 @@ Network Cable Lengths
 
 ![OSI to TCP IP models](https://gyazo.com/544e2b76808dd3a08ad8e8abe9de9fa5.png)
 ![OSI to TCP IP models](https://gyazo.com/695ae4ad8f348a97397a40925927cc45.png)
+
+
+**Simplex vs Half Duplex vs Duplex**
+
+![OSI to TCP IP models](https://gyazo.com/cf5f4d9525fd379fed470a8952d34465.png)

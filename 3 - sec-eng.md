@@ -143,6 +143,79 @@ There are three types of storage
 - Virtual Memory - Paging or swapping
     - Temporarily puts data from RAM onto secondary storage as RAM is full.
 
+### Memory Types
+
+- Dynamic RAM - DRAM
+    - If the memory controller
+does not “refresh” the value of 1, the capacitor will start losing its electrons and become a 0
+or a corrupted value. This explains how dynamic RAM (DRAM) works. The data being held
+in the RAM memory cells must be continually and dynamically refreshed so your bits do
+not magically disappear. This activity of constantly refreshing takes time, which is why
+DRAM is slower than static RAM. 
+    - Cheaper
+    - SLower
+
+
+- Static RAM - SRAM
+    - Does not need to be refreshed
+    - Requires more transitors the dram
+    - Expensive - Manufacturers cannot fit as many SRAM memory cells on a memory
+chip as they can DRAM memory cells, which is why SRAM is more expensive
+    - 
+
+-  Synchronous DRAM (SDRAM) 
+    -Synchronizes itself with the system’s CPU and
+synchronizes signal input and output on the RAM chip. It coordinates its activities
+333
+with the CPU clock so the timing of the CPU and the timing of the memory
+activities are synchronized. This increases the speed of transmitting and executing
+data.
+
+- Extended data out DRAM (EDO DRAM) 
+    - This is faster than DRAM because
+DRAM can access only one block of data at a time, whereas EDO DRAM can
+capture the next block of data while the first block is being sent to the CPU for
+processing. It has a type of “look ahead” feature that speeds up memory access.
+
+- Burst EDO DRAM (BEDO DRAM) 
+    - Works like (and builds upon) EDO DRAM
+in that it can transmit data to the CPU as it carries out a read option, but it can send
+more data at once (burst). It reads and sends up to four memory addresses in a small
+number of clock cycles.
+
+- Double data rate SDRAM (DDR SDRAM) 
+    - Carries out read operations on the
+rising and falling cycles of a clock pulse. So instead of carrying out one operation per
+clock cycle, it carries out two and thus can deliver twice the throughput of SDRAM.
+Basically, it doubles the speed of memory activities, when compared to SDRAM, with
+a smaller number of clock cycles. Pretty groovy
+
+
+- ROM - Standard read only memory
+- PROM  - Programmable read-only memory (PROM) is a form of ROM that can be modified after it
+has been manufactured. PROM can be programmed only one time because the voltage that
+is used to write bits into the memory cells actually burns out the fuses that connect the
+individual memory cells. The instructions are “burned into” PROM using a specialized
+PROM programmer device
+- EPROM - Erasable programmable read-only memory (EPROM) can be erased, modified, and
+upgraded. EPROM holds data that can be electrically erased or written to. To erase the
+data on the memory chip, you need your handy-dandy ultraviolet (UV) light device that
+provides just the right level of energy. The EPROM chip has a quartz window, which is
+where you point the UV light. Although playing with UV light devices can be fun for the
+whole family, we have moved on to another type of ROM technology that does not require
+this type of activity.
+- EEPROM - EEPROM is similar to EPROM, but its data storage can be erased and modified
+electrically by onboard programming circuitry and signals. This activity erases only 1 byte
+at a time, which is slow. And because we are an impatient society, yet another technology
+was developed that is very similar, but works more quickly
+- Flask Memory - Small, generally used as ROM. Can we wiped with a single function so much faster then eeprom.
+
+
+
+
+
+
+
 ### Software Components
 - System Kernel
     - Different from security kernel
@@ -192,6 +265,13 @@ All modern OS's are multi tasking systems so we need to ensure that processes ca
 
 
 ### Multi Programming
+
+
+**Research the process scheduler and its modes**
+There are two modes or states in which a process can be in
+    - Running = When a new process is created, it enters into the system as in the running state. 
+    - Not running -Processes that are not running are kept in queue, waiting for their turn to execute. Each entry in the queue is a pointer to a particular process. Queue is implemented by using linked list. Use of dispatcher is as follows. When a process is interrupted, that process is transferred in the waiting queue. If the process has completed or aborted, the process is discarded. In either case, the dispatcher then selects a process from the queue to execute.
+
 **What is the different between Multi-Tasking, m-threading, m-procressing and pipelining**
 
 
@@ -248,7 +328,9 @@ appropriateness of a specific system
     
     
 
-**Define the following system security modes**
+
+
+## System Security Modes
 ##### Dedicated Security mode
 
 In this mode of operation, all users must have:
