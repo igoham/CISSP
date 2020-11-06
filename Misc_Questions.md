@@ -309,24 +309,7 @@ EAP expected phyicall security to be in place and thus did not require encryptio
 **Enticement vs entrapment**
 
 
-**Common code review techniues?**
-
-
-**Need to review the incident response phases**
-- Detection 
-- Response
-    - assemble the team 
-    - Analysis
-- Mitigation
-    - The goal of mitigation is to prevent or reduce any further damage from this incident so
-that you can begin to recover and remediate. A proper mitigation strategy buys the incident
-response team time for a proper investigation and determination of the incident’s root
-cause.
-- Reporting
-- Recovery
-    - Fix the problem
-- Remediation / Lessons Learned
-    - Fix the inital problem that allowed ther breach to occur
+**Common code review techniques?**
 
 
 **Review the following pen test types**
@@ -334,19 +317,12 @@ cause.
 - Blackbox
 - gray box
 
-**How to test coverate computed**
-
-
-    (A) the total lines of code in the piece of software you are testing, and
-    (B) the number of lines of code all test cases currently execute, and
-    Find (B divided by A) multiplied by 100 – this will be your test coverage %.
-
-
-- Formula = (A * B) * 100 = coverage%
-    - (650 / 1000) * 100 = 65% 
 
 
 **Research Cali online priv protection act**
+- Have a privacy policy
+- Link to it from your app / site
+
 
 **Looks up FTP ports**
 20 - data plane

@@ -127,4 +127,16 @@ ZODB *(ZOPE DB)* for Python is an example of a OODBMS
 
 **What are candidate keys**
 
-A candidate key is a combination of attributes that uniquely identify a database record without referring to any other data. Each table may have one or more candidate. One of these candidate keys is selected as the table primary key. A table contains only one primary key, but it can contain several candidate keys. If a candidate key is composed of two or more columns, then it's called a composite key. 
+A candidate key is a combination of attributes that uniquely identify a database record without referring to any other data. Each table may have one or more candidate. One of these candidate keys is selected as the table primary key. A table contains only one primary key, but it can contain several candidate keys. If a candidate key is composed of two or more columns, then it's called a composite key.
+
+**How to test coverate computed**
+
+
+    (A) the total lines of code in the piece of software you are testing, and
+    (B) the number of lines of code all test cases currently execute, and
+    Find (B divided by A) multiplied by 100 – this will be your test coverage %.
+
+
+- Formula = (A * B) * 100 = coverage%
+    - (650 / 1000) * 100 = 65% 
+ 
