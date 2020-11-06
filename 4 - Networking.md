@@ -39,6 +39,45 @@ An L2TP tunnel can extend across an entire PPP session or only across one segmen
     
 ### GRE - Generic Routing Encryption
 
+### IPSEC
+
+from wikipedia
+
+The IPsec is an open standard as a part of the IPv4 suite. IPsec uses the following protocols to perform various functions:[11][12]
+
+    Authentication Headers (AH) provides connectionless data integrity and data origin authentication for IP datagrams and provides protection against replay attacks.[13][14]
+    Encapsulating Security Payloads (ESP) provides confidentiality, connectionless data integrity, data-origin authentication, an anti-replay service (a form of partial sequence integrity), and limited traffic-flow confidentiality.[1]
+    Security Associations (SA) provides the bundle of algorithms and data that provide the parameters necessary for AH and/or ESP operations. The Internet Security Association and Key Management Protocol (ISAKMP) provides a framework for authentication and key exchange,[15] with actual authenticated keying material provided either by manual configuration with pre-shared keys, Internet Key Exchange (IKE and IKEv2), Kerberized Internet Negotiation of Keys (KINK), or IPSECKEY DNS records.[16][17][18][19]
+
+#### Ike - Internet Key Exchange
+
+User to negotiate security associations (SA). An agreement on how to do crypto.
+
+- Runs on UDP 500
+
+Has two phases
+- Phase 1- Creates ISAKMP SA (management)
+    - If the routers need to talk to each other they use this SA
+    - Uses policy sets to define what we need to user
+        - Encryption Algo used
+        - Key length
+        - Hash Algo Used for integtiry
+    - Bi-diretional security assoication how both routers to talk to each other for management reason
+- Phase 2 - Creates IPSec Data SA
+    - Uses a transform set
+        - Describes how we security end user data ( similar to ISAKMP )
+        - When PC a talks to HQ pc its how we are protection the data
+        - Must have matching transport sets so each router can have their own SA
+        
+
+
+##### AH
+- Mostly obsolete
+- Can encapsulate the data but only provides authentication of user traffic and integrity.
+
+##### ESP - 
+- Provides confidentiality
+
 
 ## WAN technologies
 
