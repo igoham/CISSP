@@ -72,6 +72,22 @@ understand the different modes and which one to use for which purpose.*
     - iters the IV by 1 rather than using any sort of prevous output
     - Can be run in parallel 
 
+### The math behind crypto!
+
+There are two common methods of preforming the work that is done that makes crypto hard.
+
+- Factoring
+    - RSA
+    
+- Discrete Logs  
+    - DH Key Excange
+    - ECC
+        - More efficient then RSA. Same encryption strength with a shorter key.
+    - EL Gamal
+    - DSA
+- kNapsack - This should no longer be used!
+    
+    
 ### Hash Lengths
 |Name|Digest Length| Block Size|
 |---|----|----|
@@ -211,3 +227,38 @@ The MITM attack attempts to find the keys by using both the range (ciphertext) a
 
 - The last step of certificate creation if for the CA to sign the cert with its own private key.
 - When the recipient receives the certificate they can validate it by using the CA's public ket
+
+
+
+## Crypto-Analysis Attacks
+- Frequency analysis
+    - Looks for patterns in cipher text to find common patterns in english.
+- Algoritm error
+    - Looks for a weakness in the program that is used to preform encryption
+- cipher text only attack
+    - Most common - has ONLY encrypted data
+    - Finds key
+- known plain text attack
+    - Attack her only plain text
+    - Finds key
+- chosen plain text attack
+    - Has both encrypted and decrypted text
+    - Finds key
+- adaptive chosen plain text attack
+    - Finds key
+    - Modifies plain text based on the last result of encryption
+- chosen cipher text attack
+    - Finds key
+    - attack for PKI
+- chosen key attack
+
+- Rubber host / bribery
+
+
+## Media Sanatization
+
+- Clearing data is the most common sanitization method. It is meant to prevent data from being retrieved absent the use of “state of the art” laboratory techniques. Clearing often involves overwriting data once (and seldom more than three times) with repetitive data (such as all zeros) or resetting a device to factory settings.
+
+- Purging data is meant to eliminate information from being feasibly recovered even in a laboratory environment. Conventional methods include degaussing (for magnetic media) and, where data is encrypted, using a method called Cryptographic Erasure to sanitize the cryptographic key rather than the related data.
+
+- Destroying data is designed not merely to render the information unrecoverable, but also to hinder any reuse of the media itself. As a result, destruction is a satisfyingly physical process that may involve shredding media to pieces, disintegrating it to parts, pulverizing it to powder or incinerating it to ash.

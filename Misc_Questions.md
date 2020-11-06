@@ -136,21 +136,11 @@ What are the relevant US and EU laws around privacy
 
 **Review public and military classification names**
 
-**Review Memory Types**
-
 **Review x.25 VS ATM vs SONNET vs FDDI**
-
-**Review wireless standards**
-
-For example a,b,c,g,n,ac
 
 **What are the different wireless modes for enterprise**
 
-**Review Cabling**
-
 **Review PBX's**
-
-**What is a take-grant permission model**
 
 **Review IDS / IDPS from domain 5**
 
@@ -171,22 +161,67 @@ For example a,b,c,g,n,ac
 - Content-Dependent Access Control
 - Context-Dependent Access Control
 
-
-
 **Review The Identify and access provisioning live cycle**
 
 **Review the following software Development methodologies**
+
+There are two different types of models, prefictive bs adaptive. Most models are a mixture of booth
+
+- Predictive 
+    - the client knows what they want and it is built
+    - Few changes
+    
+- Adaptive
+    - Has an idea of what they want but its not fully identified
+    - Team builds a prototype and iterates on feedback
+
+The second type of model is incremental vs iterative
+- incremental
+    - You have a good idea of what you want to build but you build the entire car in many iterations
+    - Good if the company can use the incremental portion or will use feedback to improve
+- Iterative
+    - works well on feedback
+    - idea is not fully flushed uut yet
+
+https://gyazo.com/7dc1830dc89ecd5948e1d6ec797fb70d
+
 - Waterfall Methodology
+    - plan -> define
+    - build
+    - test
+    - release / maintainance
+    
+You cannot go back and fix anything that was fixed! If you missed a key requirement you need to wait for the next design or requiremnts phase to fix it.
+ Best for projects that will not have changing requirements
+ 
+    
+- Agile Methodologies
+    - plan -> define
+    - build
+    - test
+    - release
+    
+Agile follows the same steps as waterfall however it does so in two week springs. Better suited for many changes throughout dev process.
+
+- DevOps
+    - Operations
+    - Development
+    - QA
+    
+Not focused on security nativley but there is DevSecOps.
+
+
 - V-Shaped Methodology
+https://gyazo.com/fe37e474c6bfada57be31d5f07a782b6
+
+- Spiral Methodology
 - Prototyping
 - Incremental Methodology
-- Spiral Methodology
-- Rapid Application Development
-- Agile Methodologies
-- Integrated Product Team
-- DevOps
 
-**review rootkits**
+- Rapid Application Development
+    - Follows the iterative odel
+
+- Integrated Product Team
 
 
 
@@ -246,14 +281,6 @@ At its core, identity proofing is an approach for verifying and authenticating t
 
 **Review calculating ARO for and EF values for 200 - 400 year events**
 
-**Review SOC1,2,3 and each types**
-
-**Breakdown the following**
-
-- Policy
-- Standard
-- Baseline
-- Prodecure
 
 **EAP vs PEAP vs EAP-TLS**
 
