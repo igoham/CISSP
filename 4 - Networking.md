@@ -1,9 +1,43 @@
 
-## VPNS
+# VPNS
+
+### PPP - Point-To-Point Protocol
+
+- Layer: 2
+- Developer: Microsoft
+- Authentication: PAP, CHAP, and Microsoft Challenge Handshake Authentication Protocol (MS-CHAP).
+
+PPP supports the transmission of network packets over a serial point-to-point link by specifying framing mechanisms for encapsulating network protocols such as Internet Protocol (IP), Internetwork Packet Exchange (IPX), or NetBEUI into PPP frames. 
+
+PPP was largley replaced by Serial over IP (SLIP)
+
+PPP encapsulation is based on the High-level Data Link Control (HDLC) derived from the mainframe environment. These PPP frames can be transmitted over serial transmission lines such as Plain Old Telephone Service (POTS), Integrated Services Digital Network (ISDN), and packet-switched networks such as X.25. 
+
+### PPTP - Point-To-Point tunneling protocol
+
+- Layer: 2
+- Developer: Microsoft
+- port 1723
+- Uses TCP
+
+PPTP is an extension of PPP and is based on PPP negotiation, authentication, and encryption schemes. PPTP encapsulates Internet Protocol (IP), Internetwork Packet Exchange (IPX), or NetBEUI packets into PPP frames, creating a “tunnel” for secure communication across a LAN or WAN link. The PPTP tunnel is responsible for authentication and data encryption and makes it safe to transmit data over unsecured networks.
+Uses PPP for authentication; however, you can use EAP-TLS for authenticaton as well.
+
 
 ### L2TP
-- The only one of the four common vpn protovols that can natiley support non-ip protocols. 
+
+- Layer: 2
+- Lacks its own confidentaility of its own
+- Uses UDP
+
+- The only one of the four common vpn protovols that can natively support non-ip protocols. 
     - PPTP, l2f, and IPSEC are all only IP protocols
+    
+The entire L2TP packet, including payload and L2TP header, is sent within a User Datagram Protocol (UDP) datagram. A virtue of transmission over UDP (rather than TCP) is that it avoids the "TCP meltdown problem".[3][4] It is common to carry PPP sessions within an L2TP tunnel. L2TP does not provide confidentiality or strong authentication by itself. IPsec is often used to secure L2TP packets by providing confidentiality, authentication and integrity. The combination of these two protocols is generally known as L2TP/IPsec (discussed below). 
+
+An L2TP tunnel can extend across an entire PPP session or only across one segment of a two-segment session. This can be represented by four different tunneling models, namely: 
+    
+### GRE - Generic Routing Encryption
 
 
 ## WAN technologies
@@ -29,6 +63,20 @@ customer to the the ISP. Cir
 
 ATM is a **cell-switched** wan technology. Cell switching is similar to packet switching but instead of using varaible length packaged it uses fixed length cells.
 ATM uses cells that are 53 bytes long. As a result ATM is mcuh more predictable than packet switched technologies.
+
+
+| Protocol | Frequency |  Multiplexing method | Speed/throughput | description
+| --- | --- | --- | --- | ---|
+|802.11a|5Ghz|OFDM| 11Mbps | Original enterprise grade - Came to market second. Only allowed in US markets due to frequency restrictions
+|802.11B|2.4Ghz|DSSS| 11Mbps | Original consumer grade - came to market first and won the market share
+|802.11e|?|?| ? | Introduced QOS to wireless
+|802.11f|n/a| n/a | n/a|The standard that introduced roaming between APs
+|802.11g|Ghz| 11Mbps|a|Speed enhancement for 802.11b. If a product meets the specifications of 802.11b, its data transfer rates are up to 11 Mbps, and if a product is based on 802.11g, that new product can be backward-compatible with older equipment but work at a much higher transfer rate
+|802.11h|Ghz| 11Mbps | Build on the 802.11a standard to me the EU frequiency requirements
+|802.11j|Ghz| 11Mbps | Task force was tasked with together many of the different standards and streamlining their development to allow for better interoperability across borders.
+|802.11n|6 Ghz| 100Mbps | This standard uses a concept called multiple input, multiple output (MIMO) to increase the throughput. This requires the use of two receive and two transmit antennas to broadcast in parallel using a 20-MHz channel.
+|802.11ac|Ghz| 11Mbps | aa
+|802.11|Ghz| 11Mbps | aa
 
 
 

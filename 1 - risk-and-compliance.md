@@ -32,11 +32,11 @@ The RMF has six steps
     - Requires SMEs, for example databases require a DBA to preform special configurations 
 - Assessment
     - Assess the level of implementation per control
-    - Looks at the evidence put in place, documentation with accrediation 
+    - Looks at the evidence put in place, documentation with accreditation 
     - Ensure in a secure phyiscal location
     - Ensure technical controls are in place
 - Authorize the system
-    - An Authorizaing offical must accept the risk that is not mitigated by the controls
+    - An Authorizing official must accept the risk that is not mitigated by the controls
 - Continuous monitoring
     - One the system is approved we contineously monitor the controlls to ensure they are effective
     - Ensures the system always maintains the same level of risk as it was initially accepted with
@@ -236,7 +236,7 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 		- HIPAA mandates steep federal penalties for noncompliance. If medical information is used in a way that violates the privacy standards dictated by HIPAA, even by mistake, monetary penalties of $100 per violation are enforced, up to $1,500,000 per year, per standard. If protected health information is obtained or disclosed knowingly, the fines can be as much as $50,000 and one year in prison. If the information is obtained or disclosed under false pretenses, the cost can go up to $250,000 with 10 years in prison if there is intent to sell or use the information for commercial advantage, personal gain, or malicious harm. This is serious business. 
 	- Health Information Technology for Economic and Clinical Health (HITECH) Act
 		- y. Subtitle D of the HITECH Act addresses the privacy and security concerns associated with the electronic transmission of health information, in part through several provisions that strengthen the civil and criminal enforcement of the HIPAA rules. Section 13410(d) of the HITECH Act revised Section 1176(a) of the Social Security Act by establishing 
-			- - Four categories of violations that reflect increasing levels of culpability - 
+			- Four categories of violations that reflect increasing levels of culpability - 
 			- Four corresponding tiers of penalty amounts that significantly increase the minimum penalty amount for each violation - 
 			- A maximum penalty amount of $1.5 million for all violations of an identical provision 
 	- Gramm-Leach-Bliley Act (GLBA)
@@ -246,7 +246,7 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 			- Pretexting Protection Implement safeguards against pretexting (social engineering). 
 	- Personal Information Protection and Electronic Documents Act
 		- The law was enacted to help and promote consumer trust and facilitate electronic commerce. It was also put into place to reassure other countries that Canadian businesses would protect privacy data so that cross-border transactions and business activities could take place in a more assured manner. Some of the requirements the law lays out for organizations are as follows: 
-			- - Obtain consent when they collect, use, or disclose their personal information - 
+			- Obtain consent when they collect, use, or disclose their personal information - 
 			- Collect information by fair and lawful means - 
 			- Have personal information policies that are clear, understandable, and readily available
 	- Payment Card Industry Data Security Standard (PCI DSS)
@@ -262,6 +262,8 @@ See this URL - https://www.studynotesandtheory.com/single-post/due-care-vs-due-d
 			- 9. Restrict physical access to cardholder data. 
 			- 10. Track and monitor all access to network resources and cardholder data. 
 			- 11. Regularly test security systems and processes. 
+			    - Requirement 11.2 covers scanning. It states that you need to "Run internal and external network vulnerability scans at least quarterly and after any significant change in the network."
+			    - Both scans must be done quarterly
 			- 12. Maintain a policy that addresses information security for employees and contractors.
 			
 			

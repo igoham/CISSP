@@ -77,21 +77,38 @@ Only one goal **Prevents conflicts of interest**
 
 ### Graham Denning
 
+DOn't need the specifics - Specifies rules to allow subjects access to objects
+
 ### Harrision Ruzzo - Ulman
+
+An enchancement of Ghram Denning, added generic rights
 
 ### Noneinterference Model
 
+In simple terms, a computer is modeled as a machine with inputs and outputs. Inputs and outputs are classified as either low (low sensitivity, not highly classified) or high (sensitive, not to be viewed by uncleared individuals). A computer has the non-interference property if and only if any sequence of low inputs will produce the same low outputs, regardless of what the high level inputs are.
+
+That is, if a low (uncleared) user is working on the machine, it will respond in exactly the same manner (on the low outputs) whether or not a high (cleared) user is working with sensitive data. The low user will not be able to acquire any information about the activities (if any) of the high user. 
+
 ### The grant take model
 
-**Define the following Access Control Models**
+Provides a framework for granting and taking permissions from a subject.
 
-- Noneinterference Model
-- Graham-Denning Model
-- Harrison Ruzzo Ulman Model
+There are a total of four such rules:
 
+    take rule allows a subject to take rights of another object (add an edge originating at the subject)
+    grant rule allows a subject to grant own rights to another object (add an edge terminating at the subject)
+    create rule allows a subject to create new objects (add a vertex and an edge from the subject to the new vertex)
+    remove rule allows a subject to remove rights it has over on another object (remove an edge originating at the subject)
 
 **What is TOGAF**
 - How does it differ from Zachman or SABSA
+- Sabsa defines a risk driven enterprise security model. Derived from the business requirements for security.  
+- ZACHMAN defines an enterprise architecture
+- TOGAF is the third major framework.
+    - Breaks org down to components
+    
+https://gyazo.com/cfbfa012a3f0152d2694d46b4eb18a79
+
 
 Helps break an enterprise into components so you can apply securry to help comm
 
