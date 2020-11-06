@@ -89,3 +89,40 @@ current, which usually cannot start a fire.
 **Look up the different terms for spikes and dips in energy**
 <p><span><span>Sag: </span></span>Momentary Low Voltage</p>   <p>Brownout: Prolonged Low Voltage</p>   <p><span>Spike: </span>Momentary High Voltage</p>   <p>Surge: Prolonged High Voltage</p>   <p>Fault: Momentary Power Loss</p>   <p>Blackout: Loss of All Power</p><p>Transient: Short Duration Noise Interference</p></div></div>
 
+
+
+
+**Evacuation proceedures?**
+Evacuation Routes
+
+All personnel should be advised of the quickest evacuation routes from their area including guest. All sites should use a meeting point in the event of an emergency, so that people don’t mistakenly reenter the site searching for people.
+Evacuation Roles and Procedures
+
+- Safety Warden – Ensures all personnel safely evacuate the building in the event of an emergency or drill
+- Meeting point leader – Assures all personel are accounted for a the emergency meeting point
+
+All personnel should follow evacuation procedures and posted route. All sites should have mitigating controls lot allow safe egress of all personnel.
+
+
+#### Heat Detectors
+Alerts when temperature exceeds a certain baseline.
+
+#### Smoke Detectors
+Can be ionization based or photoelectric based. Both types of alarm Alavert when smoke interrupts radioactivity or light, lowering or blocking the electric charge. Dust can sometimes lead to false alarms.
+
+#### Flame Detectors
+Detect infrared or ultraviolet light emitted in fire. The drawback is it requires line of sight from the flame where as smoke detectors don’t.
+
+
+#### Positive Pressure and Drains
+
+Air and water should be expelled from the building. Untreated air should be never be inhaled into the building, and water should drain away from the building. A common HVAC malfunction is condensation of water pooling into the building, often going under raised floors where it may not be detected. Positive drains are designed to avoid this problem. Location of all gas and waterlines , as well as all drains should be formally documented.
+#### Heat and Humidity
+
+Datacenters should operate within humidity levels of 40-55% and temperature range of 68-77F (20-25C).
+#### Static and Corrosion
+
+Low humidity can cause static buildup damaging equipment. Maintaining proper humidity and grounding, using antistatic sprays, wrist wraps and work surfaces helps mitigate this risk. High humidity level can allow water in the air to condense onto equipment leading to corrosion.
+#### Airborne Contaminants
+
+Dust can cause overheating and static building, and clog CPU fans causing component failures. HVAC should operating in closed loops require HEPA filters to filter contaminants

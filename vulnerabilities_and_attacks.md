@@ -25,3 +25,6 @@ A Fraggle Attack is a denial-of-service (DoS) attack that involves sending a lar
 1. **Using Components with Known Vulnerabilities** Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.
 1. **Insufficient Logging & Monitoring** Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.
 
+**difference between tpyo squatting and cyber squatting**
+- Cybersquatting involves buying website URLs of already established businesses that do not have a related website.
+- Typosquatting involves buying a look-alike website URL that appears similar to the genuine URL of an established organization but actually contains a typo.
