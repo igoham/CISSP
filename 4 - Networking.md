@@ -71,10 +71,10 @@ ATM uses cells that are 53 bytes long. As a result ATM is mcuh more predictable 
 |802.11B|2.4 Ghz|DSSS| 11Mbps | Original consumer grade - came to market first and won the market share
 |802.11e|?|?| ? | Introduced QOS to wireless
 |802.11f|n/a| n/a | n/a|The standard that introduced roaming between APs
-|802.11g|Ghz| 11Mbps|a|Speed enhancement for 802.11b. If a product meets the specifications of 802.11b, its data transfer rates are up to 11 Mbps, and if a product is based on 802.11g, that new product can be backward-compatible with older equipment but work at a much higher transfer rate
-|802.11h|Ghz| 11Mbps | Build on the 802.11a standard to me the EU frequiency requirements
-|802.11j|Ghz| 11Mbps | Task force was tasked with together many of the different standards and streamlining their development to allow for better interoperability across borders.
-|802.11n|5 Ghz| 100Mbps | This standard uses a concept called multiple input, multiple output (MIMO) to increase the throughput. This requires the use of two receive and two transmit antennas to broadcast in parallel using a 20-MHz channel.
+|802.11g|2.4 Ghz|DSSS| 54 Mbps|a|Speed enhancement for 802.11b. If a product meets the specifications of 802.11b, its data transfer rates are up to 11 Mbps, and if a product is based on 802.11g, that new product can be backward-compatible with older equipment but work at a much higher transfer rate
+|802.11h|5 Ghz|OFDM|11Mbps | Build on the 802.11a standard to me the EU frequiency requirements
+|802.11j|Ghz|?| 11Mbps | Task force was tasked with together many of the different standards and streamlining their development to allow for better interoperability across borders.
+|802.11n|5 Ghz|OFDM| 100Mbps | This standard uses a concept called multiple input, multiple output (MIMO) to increase the throughput. This requires the use of two receive and two transmit antennas to broadcast in parallel using a 20-MHz channel.
 |802.11ac|5 Ghz| 1.3 Gbps | The IEEE 802.11ac WLAN standard is an extension of 802.11n. It also operates on the 5- GHz band, but increases throughput to 1.3 Gbps. 802.11ac is backward compatible with 802.11a, 802.11b, 802.11g and 802.11n, but if in compatibility mode it slows down to the speed of the slower standard. Another benefit of this newer standard is its support for beamforming, which is the shaping of radio signals to improve their performance in specific directions. In simple terms, this means that 802.11ac is better able to maintain high data rates at longer ranges than its predecessors.
 |802.11|Ghz| 11Mbps | aa
 
