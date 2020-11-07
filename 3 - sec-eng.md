@@ -385,10 +385,17 @@ Solid State Drives (SSD): These use flash memory to store data and data is not o
     
 ### Backup Modes
 
-- Full backup – everything is backed up on a regular schedule regardless if anything has changed. The archive bit is reset upon each backup.
-- Incremental backup – everything that has changed since the last full backup is backed up. The archive bit is reset.
-- Differential backup – all files that have been modified since the last full backup are backed up. The archive bit is not reset. A full weekly backup with differential daily backups is preferred/faster restore than the full and incremental as in an incremental restore, all incremental backups need to be restored.
-- Copy backup – same as a full backup but archive bit is not reset. This form is typically used for unscheduled backups and is used to prevent interfering with the regularly-scheduled daily backups.
+##### Full backup
+everything is backed up on a regular schedule regardless if anything has changed. The archive bit is reset upon each backup.
+
+##### Incremental backup
+
+This process requires much more care to be taken over the different phases of the backup, as it involves making copies of the files by taking into account the changes made in them since the previous backup. For example, imagine you have done a full backup. Once you’ve finished, you decide that going forward you will do incremental backups, and you then create two new files. The incremental backup will detect that all the files in the full backup remain the same, and will only make backup copies of the two newly created files. As such, the incremental backup saves time and space, as there will always be fewer files to be backed up than if you were to do a full backup. We recommend that you do not try to employ this type of backup strategy using manual means.
+##### Differential backup
+
+A differential backup has the same basic structure as an incremental backup—in other words, it involves making copies only of new files or of files that underwent some kind of change. However, with this backup model, all the files created since the original full backup will always be copied again. For the same reasons as with incremental backups, we recommend that differential backups are also not carried out manually.
+
+
 
 
 **EAP vs PEAP vs EAP-TLS**

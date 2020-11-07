@@ -305,3 +305,8 @@ Effective KRIs help to:
     Alert key people in advance of risks unfolding.
     Help people to manage and mitigate risks.
 
+
+
+
+
+![](https://gyazo.com/0aeaae190bb9c788002850998b88f702.png)
