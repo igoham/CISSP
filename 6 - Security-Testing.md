@@ -121,3 +121,11 @@ The findings and detailed explanations from the report will offer you insights a
 Learn about 25 benefits of performing a pentest here!  
 
 Your penetration report will also include a helpful overall security risk score. It may be inspired by ITIL, FAIR, or DREAD methods and look something like this:
+
+#### TCP Scans
+
+##### TCP SYN
+TCP SYN scanning sends a single packet to each scanned port with the SYN flag set. This indicates a request to open a new connection. If the scanner receives a response that has the SYN and ACK flags set, this indicates that the system is moving to the second phase in the three-way TCP handshake and that the port is open. TCP SYN scanning is also known as "half-open" scanning. 
+
+##### TCP Connect
+TCP connect scanning opens a full connection to the remote system on the specified port. This scan type is used when the user running the scan does not have the necessary permissions to run a half-open scan.

@@ -11,6 +11,17 @@ Pharming is a cyberattack intended to redirect a website's traffic to another, f
 A Fraggle Attack is a denial-of-service (DoS) attack that involves sending a large amount of spoofed UDP traffic to a router’s broadcast address within a network. It is very similar to a Smurf Attack, which uses spoofed ICMP traffic rather than UDP traffic to achieve the same goal. Given those routers (as of 1999) no longer forward packets directed at their broadcast addresses, most networks are now immune to Fraggle (and Smurf) attacks.
 
 
+**Tear Drop attack**
+
+OLD ATTACK!
+
+A teardrop attack is a denial-of-service (DoS) attack that involves sending fragmented packets to a target machine. Since the machine receiving such packets cannot reassemble them due to a bug in TCP/IP fragmentation reassembly, the packets overlap one another, crashing the target network device.
+
+**Land Attack**
+
+A land attack is a remote denial-of-service (DOS) attack caused by sending a packet to a machine with the source host/port the same as the destination host/port. This is a rather old attack and current patches should stop them for most systems.
+
+
 **OWASP top 10 2020**
 
 
